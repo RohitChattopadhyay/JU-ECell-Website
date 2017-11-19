@@ -71,7 +71,7 @@
       <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="stlyesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="assets/style.css?nocache">
+      <link rel="stylesheet" type="text/css" href="assets/style.css?nocached">
       <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bowlby+One+SC|Changa+One|Neuton|Archivo+Black|Scada|Changa+One|Anton" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="js/modernizr.custom.js"></script>
@@ -248,13 +248,13 @@
                   VISION
                </h2>
                <br>
-               <p>
-                  Entrepreneurship is the set of wings that a country requires to soar higher.<br>
-                  And the Jadavpur University Entrepreneurship Cell aims at invoking a spirit of entrepreneurship<br>
-                  among the new generation, a stepping stone towards the better future of our Nation and her growing economy.<br>
-                  We believe in providing a platform to guide these creative minds through effective interaction between<br>
-                  the student body and esteemed members of the corporate world, successful entrepreneurs, investors,<br>
-                  venture capitalists, thus helping their ideas transform into entrepreneurial ventures.<br>
+               <p style="text-align:justify">
+                  Entrepreneurship is the set of wings that a country requires to soar higher.
+                  And the Jadavpur University Entrepreneurship Cell aims at invoking a spirit of entrepreneurship
+                  among the new generation, a stepping stone towards the better future of our Nation and her growing economy.
+                  We believe in providing a platform to guide these creative minds through effective interaction between
+                  the student body and esteemed members of the corporate world, successful entrepreneurs, investors,
+                  venture capitalists, thus helping their ideas transform into entrepreneurial ventures.
                   We aim to help dreams take off, here at Jadavpur University! 
                </p>
             </div>
@@ -430,7 +430,7 @@
                      0 10px 10px rgba(0,0,0,.2),
                      0 20px 20px rgba(0,0,0,.15) ; color: white ; font-family: 'Archivo Black', sans-serif
                      " >ABOUT US</h1>
-                  <p >
+                  <p  style="text-align:justify">
                      Are you a Start-up Enthusiast with a plan in hand, looking for the missing piece in your start-up puzzle?
                      Are you a Venture Capitalist or Angel Investor, hunting to find the best place to invest ?
                      Or, Are you just a Student with a passionate heart and curious mind, exploring all what college-life has to offer?
@@ -504,7 +504,7 @@
                </form>
             </div>
          </div>
-         <div class="container-map" style="margin-left:0">
+         <div class="container-map" style="margin-left:0;padding-right:0">
             <h1>FIND US HERE </h1>
             <div id="map" style="width: 100%" ></div>
          </div>
