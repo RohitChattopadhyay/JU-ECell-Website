@@ -37,4 +37,4 @@ Shout out to web-tiki and his awesome hexagon grid.
 ## License
 
 MIT ©
-[JuE-Cell](https://www.facebook.com/juecell/?hc_ref=ARSc9F_JVRBXZcoTChI2S6TUMz127sN8JdSqcT8WAvOfs9dPRVIFNVXDaV3QjOSA9lM)
+[JU E-Cell](https://github.com/ecellju)
