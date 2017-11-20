@@ -71,7 +71,7 @@
       <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link rel="stlyesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="assets/style.css?nocached">
+      <link rel="stylesheet" type="text/css" href="assets/style.css?noached">
       <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bowlby+One+SC|Changa+One|Neuton|Archivo+Black|Scada|Changa+One|Anton" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
       <script src="js/modernizr.custom.js"></script>
@@ -708,8 +708,115 @@
                </div>
                <script type="text/javascript">jssor_1_slider_init();</script>
             </div>
-			<div class="container-fluid ">
-					<!-- Testinomial-->
+			<div id="testinomial" class="container-fluid">
+			        <div class="roww">
+            <div class="col-md-12">
+			<h1 style="color: black ;font-family: 'Changa One', cursive; text-align:center"> Testinomial </h1>
+                <div class="carousel slide" data-ride="carousel" id="testinomial-quote-carousel">
+				
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner text-center">
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <p style="padding-left:30px">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
+                                        <small><b>Prof. Surjayan Sen</b><br>VC JU</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 2 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <p style="padding-left:30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <!-- Quote 3 -->
+                        <div class="item">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-10 col-sm-offset-1">
+                                        <p style="padding-left:30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                        <small>Someone famous</small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <!-- Bottom Carousel Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+                        </li>
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                        </li>
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                        </li>
+                    </ol>
+
+                    <!-- Carousel Buttons Next/Prev -->
+                    <a data-slide="prev" href="#testinomial-quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                    <a data-slide="next" href="#testinomial-quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+<style>
+#testinomial-quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#testinomial-quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#testinomial-quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#testinomial-quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#testinomial-quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+#testinomial .item blockquote {
+    border-left: none;
+    margin: 0;
+}
+#testinomial .item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+</style>
+
 
 			</div>
 			<div class="container-fluid" style="background-color:#1f2930">

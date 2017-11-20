@@ -1075,90 +1075,6 @@ a{
   }
   
 
-  #quote-carousel
-  {
-    padding:6.7%;
-    margin-top:2%;
-    
-    
-  }
-  #quote-carousel .carousel-indicators li
-  {
-    width:45px;
-    height:45px;
-    margin:5px;
-    cursor:pointer;
-    border:4px solid #ccc;
-    border-radius:50px;
-    opacity:0.4;
-    overflow:hidden;
-    transition: all 0.4s;
-    
-  }
-  #quote-carousel .carousel-indicators .active
-  {
-    
-    background:#333333;
-    width:100px;
-    height:100px;
-    border-radius:100px;
-    border-color:white;
-    opacity:1;
-    overflow:hidden;
-    
-  }
-  .carousel-inner{
-    min-height:300px;
-    
-  }
-  .item small{
-    margin-bottom:15%;
-  }
-  @media screen and (max-width:430px){
-    #quote-carousel
-  {
-    padding:9%;
-    margin-top:2%;
-    
-    
-  }
-  #quote-carousel .carousel-indicators li
-  {
-    width:28px;
-    height:28px;
-    margin:5px;
-    cursor:pointer;
-    border:4px solid #ccc;
-    border-radius:50px;
-    opacity:0.4;
-    overflow:hidden;
-    transition: all 0.4s;
-    
-  }
-  #quote-carousel .carousel-indicators .active
-  {
-    
-    background:#333333;
-    width:60px;
-    height:60px;
-    border-radius:100px;
-    border-color:white;
-    opacity:1;
-    overflow:hidden;
-    
-  }
-  .carousel-inner{
-    min-height:300px;
-    
-  }
-  .item small{
-    margin-bottom:15%;
-  }
-    
-    
-    
-  
-  }
 
 
 
@@ -1475,7 +1391,6 @@ a{
       width: 100%;
       color: #254441;
   }
-  .item{height: 100%;}
 
 
    #toptwo img{

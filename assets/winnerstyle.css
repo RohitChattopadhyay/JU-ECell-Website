@@ -443,7 +443,7 @@ li > a:only-child:after { content: ''; }
 
 
 body{
-    background-image: url('https://smarter-ecommerce.com/blog/en/wp-content/uploads/2016/01/google-shopping-black-friday-race-winner.png') ;
+    background-image: url('./images/winner_bg.png') ;
     background-attachment: fixed;
 }
 
