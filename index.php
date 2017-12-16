@@ -305,6 +305,10 @@ Ideate. Innovate. Build!";
             </p>
 			</div>
 		</div>
+
+
+
+        
 	  	<div class="container-fluid ">
 			<div class="section" style="text-align: center" id="pasts" >
             <h1 style="color: white ;font-family: 'Changa One', cursive;
@@ -480,31 +484,37 @@ Ideate. Innovate. Build!";
 		
 		<div class="container-fluid ">
 		<div class="container-contact">
-         <div class="container-form">
-            <div id="contact-form">
-               <form action="#contact-form" method="post">
-                  <h1>Contact Us</h1>
-                  <ul id="contact-form-body" class="flex-outer" style="display:inline">
-                     <li>                        
-                        <input type="text" name="contact-form-name" placeholder="Name">
-                     </li>
-                     <li>                        
-                        <input type="email" name="contact-form-email" placeholder="Email">
-                     </li>
-                     <li>                       
-                        <input type="tel" name="contact-form-phone" placeholder="Mobile Number">
-                     </li>
-                     <li>                        
-                        <textarea rows="6" name="contact-form-message" placeholder="Your Message"></textarea>
-                     </li>
-                     <li>
-                        <input type="submit" name="contact-form-submit" value="Submit" />
-                     </li>
-                  </ul>
-                  <span id="contact-form-ty" style="display:none">Thank you for reaching us, we will get back to you soon.</span>
-               </form>
-            </div>
-         </div>
+        <div class="container-form col-sm-7 col-md-5">
+        <form>
+        <h1> Contact Us </h1>
+          <ul class="flex-outer">
+            <li>
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" placeholder="Enter your first name here">
+            </li>
+            <li>
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" placeholder="Enter your last name here">
+            </li>
+            <li>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Enter your email here">
+            </li>
+            <li>
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" placeholder="Enter your phone here">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+            </li>
+       
+            <li>
+              <button type="submit">Submit</button>
+            </li>
+          </ul>
+        </form>
+        </div>
          <div class="container-map" style="margin-left:0;padding-right:0">
             <h1>FIND US HERE </h1>
             <div id="map" style="width: 100%" ></div>
@@ -514,7 +524,7 @@ Ideate. Innovate. Build!";
 		</div>
 		
 		<div class="container-fluid ">
-		            <div class="col-md-12" id="home-gallery" style="text-align:center">
+		            <div  id="home-gallery" style="text-align:center">
                <div>
                   <h1 style="color: black ;font-family: 'Changa One', cursive; text-align:center"> Gallery </h1>
                   <hr>
@@ -819,11 +829,16 @@ Ideate. Innovate. Build!";
 </style>
 
 
-			</div>
+
+
+            </div>
+            
+
+            
 			<div class="container-fluid" style="background-color:#1f2930">
 			<div id="footer" class="container" >
-         <div class="col-sm-4">
-            <span><img src="https://i.imgur.com/NSBCfAX.png"  style="margin-top:20px;height:70px"></span>
+         <div id="img-footer" class="col-sm-4">
+            <span><img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png"  style="margin-top:20px;height:70px"></span>
             <hr>
             <div id="footer-info" >
                <span id="footer-info">
@@ -910,7 +925,15 @@ Ideate. Innovate. Build!";
          }
       </style>
 			</div>
-		</div>
+        </div>
+        
+        <style>
+        @media screen and (max-width:403px){
+        #footer-logo{
+             width:90%;
+        }
+    }
+     </style>
 		      <!-- Modal content for coordinator-->
       <div id="modal-form" class="row" >
          <div class="modal fade" id="Coordinator-Modal" role="dialog" class="col-xs-12">
@@ -1066,7 +1089,6 @@ Ideate. Innovate. Build!";
       </div>
       <!-- Modal content for member ends-->
 
-		<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;"><span></span></a>
       <script type="text/javascript">
          $(window).load(function() {
                          function showhead(){
@@ -1080,15 +1102,6 @@ Ideate. Innovate. Build!";
                      });
       </script>
       <script type="text/javascript">
-         // Sticky Header
-         $(window).scroll(function() {
-         
-             if ($(window).scrollTop() > 100) {
-                 $('.main_h').addClass('sticky');
-             } else {
-                 $('.main_h').removeClass('sticky');
-             }
-         });
          
          // Mobile Navigation
          $('.mobile-toggle').click(function() {
@@ -1118,19 +1131,19 @@ Ideate. Innovate. Build!";
          
       </script>
       <script type='text/javascript'>
-         $(document).ready(function(){ 
-         	$(window).scroll(function(){ 
-               if ($(this).scrollTop() > 350) { 
-                   $('#scroll').fadeIn(); 
-               } else { 
-                   $('#scroll').fadeOut(); 
-               } 
-         }); 
-         	$('#scroll').click(function(){ 
-               $("html, body").animate({ scrollTop: 0 }, 700); 
-               return false; 
-         }); 
-         });
+      // ===== Scroll to Top ==== 
+      $(window).scroll(function() {
+          if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+              $('#return-to-top').fadeIn(200);    // Fade in the arrow
+          } else {
+              $('#return-to-top').fadeOut(200);   // Else fade out the arrow
+          }
+      });
+      $('#return-to-top').click(function() {      // When arrow is clicked
+          $('body,html').animate({
+              scrollTop : 0                       // Scroll to top of body
+          }, 500);
+      });
       </script>
       <script type="text/javascript">
          $(document).ready(function(){
