@@ -341,7 +341,7 @@ body{
 #recents{
     display: flex;
     justify-content: center;
-    background-color: #c0392b ;
+    background-color: #332827 ;
    height: 65% !important;
      
      flex-wrap: wrap;
@@ -462,7 +462,7 @@ body{
 
   #upcoming{
 
-    background-image: url('https://lvs.luxury/wp-content/uploads/2015/05/Networking-Events-Chicago-Il1.jpg') !important;
+    background-image: url('https://startupconclave.com/wp-content/uploads/2016/09/Startup-Conclave-2016-Background.jpg?id=433') !important;
     background-attachment: fixed;
     background-size: cover;
     background-color: #c0392b;
@@ -1100,6 +1100,8 @@ a{
     color: white;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   
@@ -1510,7 +1512,6 @@ height: 100%;
   
     .headd {
       width: 100%;
-      padding: 70px 0 15px;
     }
     .headd ul {
       display: none;

@@ -7,7 +7,7 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-
+z
 
 
 .section {
@@ -1156,6 +1156,8 @@ a{
     color: white;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top:20px;
+    margin-bottom: 20px;
   }
   
   
@@ -1201,3 +1203,10 @@ a{
 .carousel-indicators{
    padding-top:-50%;
     }
+
+
+
+
+#footer-logo{
+  width:90%;
+}
