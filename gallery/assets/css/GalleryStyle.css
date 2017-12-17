@@ -297,6 +297,17 @@ nav ul ul ul li {
 /* Change ' ' in order to change the Dropdown symbol */
 li > a:after { content:  '' }
 li > a:only-child:after { content: ''; }
+.demo-gallery > ul {
+         margin-bottom: 0px;
+		 padding-left:12%;
+         }
+         .demo-gallery > ul > li {
+         float: left;
+         margin-bottom: 15px;
+         margin-right: 10px;
+		 
+         width: 210px;
+         }
 
 
 /* Media Queries
@@ -405,15 +416,39 @@ li > a:only-child:after { content: ''; }
 	
 	h1{font-size:1.7em }
 	
+	.demo-gallery  {
+         margin-bottom: 0;
+		 padding-left:11%;
+         }
+         .demo-gallery .ul .li {
+         float: left;
+         margin-bottom: 15px;
+         margin-right: 10px;
+		 
+         width: 150px;
+         }
+	
 
 }
 
-@media all and (max-width : 330px) {
+@media all and (max-width : 420px) {
 
 	nav ul li {
 		display:block;
 		width: 94%;
 	}
+	.demo-gallery  {
+         margin-bottom: 0;
+		 padding-left:17%;
+		 padding-right:0;
+         }
+		 .demo-gallery .ul .li {
+         float: left;
+         margin-bottom: 15px;
+         
+		 
+         width: 120px;
+         }
 
 }
 
