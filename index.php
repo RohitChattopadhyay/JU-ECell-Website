@@ -408,7 +408,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="NASSCOM" />
+                        <img src="" alt="NASSCOM" />
                         <h3>NASSCOM</h3>
                         <p>Exciting App Dev Workshop with Internships at offer!</p>
                      </a>
