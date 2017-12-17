@@ -317,7 +317,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://www.idolator.com/wp-content/uploads/sites/10/2013/05/13/daft-punk-random-access-memories.jpg" alt="" />
+                        <img src="https://i.imgur.com/b92rjqb.png" alt="" />
                         <h3>Hult Prize at JU</h3>
                         <p>Nobel Prize for Student Entrepreneurs</p>
                      </a>
@@ -326,7 +326,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="hult-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/VKnSAKH.jpg" alt="" />
                         <h3>JU ABC Club </h3>
                         <p>Analytics, Business and Consulting Division
                         </p>
@@ -336,8 +336,8 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/03/frugal_innovation.png" alt="" />
-                        <h3>Hackathon</h3>
+                        <img src="https://i.imgur.com/TcoGzRz.png" alt="" />
+                        <h3>Jet Set Vote</h3>
                         <p>Spreading Awareness about Voting with Youth Ki Awaaz</p>
                      </a>
                   </div>
@@ -345,8 +345,8 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/hult-event.jpg" alt="" />
-                        <h3>Summer in a Startup </h3>
+                        <img src="" alt="Summer in a Startup " />
+                        <h3>Summer in a Startup</h3>
                         <p>Grab amazing internships this summer!</p>
                      </a>
                   </div>
@@ -354,7 +354,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/03/frugal_innovation.png" alt="" />
+                        <img src="" alt="E-Weekend 2017" />
                         <h3>E-Weekend 2017</h3>
                         <p>A trio of events that brought 400+ enthusiasts together!</p>
                      </a>
@@ -363,7 +363,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/hult-event.jpg" alt="" />
+                        <img src="" alt="" />
                         <h3>This is a title</h3>
                         <p>Some sample text about the article this hexagon leads to</p>
                      </a>
@@ -372,7 +372,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/Rcs85FJ.png" alt="" />
                         <h3>Start-Up Weekend</h3>
                         <p>54 engaging hours of brainstorming, B-plan making and mentoring!</p>
                      </a>
@@ -381,7 +381,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/03/frugal_innovation.png" alt="" />
+                        <img src="https://i.imgur.com/oos8JME.png" alt="" />
                         <h3>Epiphany</h3>
                         <p>Dive into the Case Challenge @Srijan</p>
                      </a>
@@ -390,7 +390,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/e4ZNWyQ.png" alt="" />
                         <h3>B-Model</h3>
                         <p>Pitch your Business plan @Srijan</p>
                      </a>
@@ -399,7 +399,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/lDO9V4O.png" alt="" />
                         <h3>The Great Debate</h3>
                         <p>The most prestigious Debate in the City with BDHC</p>
                      </a>
@@ -408,7 +408,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="assets/images/abc-event.jpg" alt="NASSCOM" />
                         <h3>NASSCOM</h3>
                         <p>Exciting App Dev Workshop with Internships at offer!</p>
                      </a>
