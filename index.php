@@ -89,11 +89,18 @@ Ideate. Innovate. Build!";
          overflow-x: hidden;
          }
 
-		 .container-fluid {
+	.container-fluid {
 			 padding-left:0 !important;
 			 padding-right:0 !important;
 		 }
-		 
+	      
+	#footer .footer-links a{
+		text-decoration: none;
+		color:white;
+	}
+	#home-gallery .ti {
+		display:none;	
+	}
       </style>
    </head>
    <body>
@@ -859,12 +866,12 @@ Ideate. Innovate. Build!";
             </span>
             <br>
             <br>
-            <span>
-            <a style="text-decoration:none !important" href="#">Home</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Events</a><br><br>
-            <a style="text-decoration:none !important"  href="#">About</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Reach Us</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Testinomial</a><br><br>
+            <span class="footer-links">
+            <a href="#">Home</a><br><br>
+            <a href="#">Events</a><br><br>
+            <a href="#">About</a><br><br>
+            <a href="#">Reach Us</a><br><br>
+            <a href="#">Testinomial</a><br><br>
             </span>
          </div>
          <div class="col-sm-2">
@@ -873,11 +880,11 @@ Ideate. Innovate. Build!";
             </span>
             <br>
             <br>
-            <span >
-            <a style="text-decoration:none !important" href="#">Hult Prize</a><br><br>
-            <a style="text-decoration:none !important"  href="#">E-weekend</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Startup Weekend</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Summer in a startup</a><br><br>
+            <span class="footer-links">
+            <a href="#">Hult Prize</a><br><br>
+            <a href="#">E-weekend</a><br><br>
+            <a href="#">Startup Weekend</a><br><br>
+            <a href="#">Summer in a startup</a><br><br>
             </span>
          </div>
          <div class="col-sm-3" >
