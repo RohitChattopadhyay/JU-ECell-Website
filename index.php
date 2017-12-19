@@ -102,25 +102,25 @@ Ideate. Innovate. Build!";
 		display:none;	
 	}
 	
-<!--HoneyComb Border Style Starts -->	
-	.hexLink .skew-box-diagonal-border {
-		transform: rotate3d(0 0 1 90deg) skewY(-40deg);
-		border: 3px solid red;
-		height: 100%;
-		width: 100%;
-		z-index: 1;
-		bottom: 0;
-		left: -2%;
-	}
 	
-	.hexLink .box-vertical-border {
-		width:  100%;
-		height: 100%;
-		left: 0;
-		border: 3px solid red;
-		z-index: 2;
-	}
-<!--HoneyComb Border Style Ends -->	
+	.hexLink .skew-box-diagonal-border {
+    transform: rotate3d(0 0 1 90deg) skewY(-40deg);
+    border: 3px solid red;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    left: -2%;
+}
+
+
+.hexLink .box-vertical-border {
+	width:  100%;
+    height: 100%;
+    left: 0;
+    border: 3px solid red;
+    z-index: 2;
+}
       </style>
    </head>
    <body>
