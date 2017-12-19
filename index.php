@@ -496,8 +496,8 @@ Ideate. Innovate. Build!";
         <h1> Contact Us </h1>
           <ul class="flex-outer">
             <li>
-              <label for="contact-form-name">First Name</label>
-              <input style="color:black" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your first name here" required>
+              <label for="contact-form-name">Name</label>
+              <input style="color:black" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your name here" required>
             </li>
             
             <li>
