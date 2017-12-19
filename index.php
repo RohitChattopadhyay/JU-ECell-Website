@@ -101,6 +101,26 @@ Ideate. Innovate. Build!";
 	#home-gallery .ti {
 		display:none;	
 	}
+	
+<!--HoneyComb Border Style Starts -->	
+	.hexLink .skew-box-diagonal-border {
+		transform: rotate3d(0 0 1 90deg) skewY(-40deg);
+		border: 3px solid red;
+		height: 100%;
+		width: 100%;
+		z-index: 1;
+		bottom: 0;
+		left: -2%;
+	}
+	
+	.hexLink .box-vertical-border {
+		width:  100%;
+		height: 100%;
+		left: 0;
+		border: 3px solid red;
+		z-index: 2;
+	}
+<!--HoneyComb Border Style Ends -->	
       </style>
    </head>
    <body>
@@ -324,100 +344,121 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/b92rjqb.png" alt="" />
                         <h3>Hult Prize at JU</h3>
                         <p>Nobel Prize for Student Entrepreneurs</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/VKnSAKH.jpg" alt="" />
                         <h3>JU ABC Club </h3>
-                        <p>Analytics, Business and Consulting Division
-                        </p>
+                        <p>Analytics, Business and Consulting Division</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/TcoGzRz.png" alt="" />
                         <h3>Jet Set Vote</h3>
                         <p>Spreading Awareness about Voting with Youth Ki Awaaz</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="" alt="Summer in a Startup " />
                         <h3>Summer in a Startup</h3>
                         <p>Grab amazing internships this summer!</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/9hrDuBc.png" alt="E-Weekend 2017" />
                         <h3>E-Weekend 2017</h3>
                         <p>A trio of events that brought 400+ enthusiasts together!</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/jQWjiWF.png" alt="Facebook on Campus" />
                         <h3>This is a title</h3>
                         <p>Some sample text about the article this hexagon leads to</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/Rcs85FJ.png" alt="" />
                         <h3>Start-Up Weekend</h3>
                         <p>54 engaging hours of brainstorming, B-plan making and mentoring!</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/oos8JME.png" alt="" />
                         <h3>Epiphany</h3>
                         <p>Dive into the Case Challenge @Srijan</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/e4ZNWyQ.png" alt="" />
                         <h3>B-Model</h3>
                         <p>Pitch your Business plan @Srijan</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/lDO9V4O.png" alt="" />
                         <h3>The Great Debate</h3>
                         <p>The most prestigious Debate in the City with BDHC</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
+					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/xvTbKeU.png" alt="NASSCOM" />
                         <h3>NASSCOM</h3>
                         <p>Exciting App Dev Workshop with Internships at offer!</p>
+						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
                </li>
