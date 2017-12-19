@@ -89,11 +89,18 @@ Ideate. Innovate. Build!";
          overflow-x: hidden;
          }
 
-		 .container-fluid {
+	.container-fluid {
 			 padding-left:0 !important;
 			 padding-right:0 !important;
 		 }
-		 
+	      
+	#footer .footer-links a{
+		text-decoration: none;
+		color:white;
+	}
+	#home-gallery .ti {
+		display:none;	
+	}
       </style>
    </head>
    <body>
@@ -317,7 +324,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://www.idolator.com/wp-content/uploads/sites/10/2013/05/13/daft-punk-random-access-memories.jpg" alt="" />
+                        <img src="https://i.imgur.com/b92rjqb.png" alt="" />
                         <h3>Hult Prize at JU</h3>
                         <p>Nobel Prize for Student Entrepreneurs</p>
                      </a>
@@ -326,7 +333,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="hult-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/VKnSAKH.jpg" alt="" />
                         <h3>JU ABC Club </h3>
                         <p>Analytics, Business and Consulting Division
                         </p>
@@ -336,8 +343,8 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/03/frugal_innovation.png" alt="" />
-                        <h3>Hackathon</h3>
+                        <img src="https://i.imgur.com/TcoGzRz.png" alt="" />
+                        <h3>Jet Set Vote</h3>
                         <p>Spreading Awareness about Voting with Youth Ki Awaaz</p>
                      </a>
                   </div>
@@ -345,8 +352,8 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/hult-event.jpg" alt="" />
-                        <h3>Summer in a Startup </h3>
+                        <img src="" alt="Summer in a Startup " />
+                        <h3>Summer in a Startup</h3>
                         <p>Grab amazing internships this summer!</p>
                      </a>
                   </div>
@@ -354,7 +361,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/03/frugal_innovation.png" alt="" />
+                        <img src="" alt="E-Weekend 2017" />
                         <h3>E-Weekend 2017</h3>
                         <p>A trio of events that brought 400+ enthusiasts together!</p>
                      </a>
@@ -363,7 +370,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/hult-event.jpg" alt="" />
+                        <img src="" alt="" />
                         <h3>This is a title</h3>
                         <p>Some sample text about the article this hexagon leads to</p>
                      </a>
@@ -372,7 +379,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/Rcs85FJ.png" alt="" />
                         <h3>Start-Up Weekend</h3>
                         <p>54 engaging hours of brainstorming, B-plan making and mentoring!</p>
                      </a>
@@ -381,7 +388,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="https://pi.tedcdn.com/r/tedideas.files.wordpress.com/2017/03/frugal_innovation.png" alt="" />
+                        <img src="https://i.imgur.com/oos8JME.png" alt="" />
                         <h3>Epiphany</h3>
                         <p>Dive into the Case Challenge @Srijan</p>
                      </a>
@@ -390,7 +397,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/e4ZNWyQ.png" alt="" />
                         <h3>B-Model</h3>
                         <p>Pitch your Business plan @Srijan</p>
                      </a>
@@ -399,7 +406,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/lDO9V4O.png" alt="" />
                         <h3>The Great Debate</h3>
                         <p>The most prestigious Debate in the City with BDHC</p>
                      </a>
@@ -408,7 +415,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="assets/images/abc-event.jpg" alt="" />
+                        <img src="https://i.imgur.com/xvTbKeU.png" alt="NASSCOM" />
                         <h3>NASSCOM</h3>
                         <p>Exciting App Dev Workshop with Internships at offer!</p>
                      </a>
@@ -489,24 +496,21 @@ Ideate. Innovate. Build!";
         <h1> Contact Us </h1>
           <ul class="flex-outer">
             <li>
-              <label for="first-name">First Name</label>
-              <input type="text" id="first-name" placeholder="Enter your first name here">
+              <label for="contact-form-name">First Name</label>
+              <input style="color:black" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your first name here" required>
+            </li>
+            
+            <li>
+              <label for="contact-form-email">Email</label>
+              <input style="color:black" type="text" name="contact-form-email" id="contact-form-email" placeholder="Enter your email here" required>
             </li>
             <li>
-              <label for="last-name">Last Name</label>
-              <input type="text" id="last-name" placeholder="Enter your last name here">
+              <label for="contact-form-phone">Phone</label>
+              <input style="color:black" type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Enter your phone here">
             </li>
             <li>
-              <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Enter your email here">
-            </li>
-            <li>
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" placeholder="Enter your phone here">
-            </li>
-            <li>
-              <label for="message">Message</label>
-              <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+              <label for="contact-form-message">Message</label>
+              <textarea style="color:black" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Enter your message here"></textarea>
             </li>
        
             <li>
@@ -859,12 +863,12 @@ Ideate. Innovate. Build!";
             </span>
             <br>
             <br>
-            <span>
-            <a style="text-decoration:none !important" href="#">Home</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Events</a><br><br>
-            <a style="text-decoration:none !important"  href="#">About</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Reach Us</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Testinomial</a><br><br>
+            <span class="footer-links">
+            <a href="#">Home</a><br><br>
+            <a href="#">Events</a><br><br>
+            <a href="#">About</a><br><br>
+            <a href="#">Reach Us</a><br><br>
+            <a href="#">Testinomial</a><br><br>
             </span>
          </div>
          <div class="col-sm-2">
@@ -873,11 +877,11 @@ Ideate. Innovate. Build!";
             </span>
             <br>
             <br>
-            <span >
-            <a style="text-decoration:none !important" href="#">Hult Prize</a><br><br>
-            <a style="text-decoration:none !important"  href="#">E-weekend</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Startup Weekend</a><br><br>
-            <a style="text-decoration:none !important"  href="#">Summer in a startup</a><br><br>
+            <span class="footer-links">
+            <a href="#">Hult Prize</a><br><br>
+            <a href="#">E-weekend</a><br><br>
+            <a href="#">Startup Weekend</a><br><br>
+            <a href="#">Summer in a startup</a><br><br>
             </span>
          </div>
          <div class="col-sm-3" >
@@ -947,8 +951,8 @@ Ideate. Innovate. Build!";
                   <div class="modal-body">
                      <form action="#about" method="post" id="coordinator-form" name="coordinator-form" style="display:inline">
                         Only for JU Students
-                        <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name"  >
-                        <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email"  >
+                        <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name"  required >
+                        <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email"  required>
                         <select class="form-control" id="coordinator-form-department" name="coordinator-form-department" placeholder="Department" >
                            <option value="" selected disabled hidden>Department</option>
                            <optgroup label="Engineering &amp; Technology">
@@ -1028,9 +1032,9 @@ Ideate. Innovate. Build!";
                   <div class="modal-body">
                      <form  action="#about" method="post" id="member-form" style="display:inline">
                         Subscribe for Official newsletter
-                        <input type="text" id="member-form-name" name="member-form-name" placeholder="Name">
-                        <input type="text" id="member-form-email" name="member-form-email" placeholder="Email">
-                        <input type="text" id="member-form-college" name="member-form-college" placeholder="College/University">											
+                        <input type="text" id="member-form-name" name="member-form-name" placeholder="Name" required>
+                        <input type="text" id="member-form-email" name="member-form-email" placeholder="Email" required>
+                        <input type="text" id="member-form-college" name="member-form-college" placeholder="College/University" required>											
                         <select class="form-control" id="member-form-department" name="member-form-department" placeholder="Department">
                            <option value="" selected disabled hidden>Department</option>
                            <optgroup label="Engineering &amp; Technology">
