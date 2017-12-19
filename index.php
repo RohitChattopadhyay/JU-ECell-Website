@@ -361,7 +361,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="" alt="E-Weekend 2017" />
+                        <img src="https://i.imgur.com/9hrDuBc.png" alt="E-Weekend 2017" />
                         <h3>E-Weekend 2017</h3>
                         <p>A trio of events that brought 400+ enthusiasts together!</p>
                      </a>
