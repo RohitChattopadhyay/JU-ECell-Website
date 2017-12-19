@@ -340,7 +340,7 @@ Ideate. Innovate. Build!";
 			<div class="section" style="text-align: center" id="pasts" >
             <h1 style="color: white ;font-family: 'Changa One', cursive;
                "> PAST EVENTS </h1>
-            <ul id="hexgrid">
+            <ul id="hexgrid" style="padding-left:0px">
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
