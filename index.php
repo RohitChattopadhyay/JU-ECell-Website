@@ -492,10 +492,10 @@ Ideate. Innovate. Build!";
 		<div class="container-fluid ">
 		<div class="container-contact">
         <div class="container-form col-sm-7 col-md-5" id="ContactUs">
-        
+<form action="#ContactUs" method="post" id="contact-form" name="contact-form">        
         <h1> Contact Us </h1>
           <ul class="flex-outer">
-<form action="#ContactUs" method="post" id="contact-form" name="contact-form">
+
 		<li>
               <label for="contact-form-name">Name</label>
               <input style="color:black" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your name here" required>
