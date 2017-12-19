@@ -492,32 +492,30 @@ Ideate. Innovate. Build!";
 		<div class="container-fluid ">
 		<div class="container-contact">
         <div class="container-form col-sm-7 col-md-5">
-        <form>
+        
         <h1> Contact Us </h1>
           <ul class="flex-outer">
+<form action="#about" method="post" id="contact-form" name="contact-form" style="display:inline">
+		<li>
+              <label for="contact-form-name">Name</label>
+              <input style="color:black" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your name here" required>
+            </li>
+            
             <li>
-              <label for="first-name">First Name</label>
-              <input type="text" id="first-name" placeholder="Enter your first name here">
+              <label for="contact-form-email">Email</label>
+              <input style="color:black" type="text" name="contact-form-email" id="contact-form-email" placeholder="Enter your email here" required>
             </li>
             <li>
-              <label for="last-name">Last Name</label>
-              <input type="text" id="last-name" placeholder="Enter your last name here">
+              <label for="contact-form-phone">Phone</label>
+              <input style="color:black" type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Enter your phone here">
             </li>
             <li>
-              <label for="email">Email</label>
-              <input type="email" id="email" placeholder="Enter your email here">
-            </li>
-            <li>
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" placeholder="Enter your phone here">
-            </li>
-            <li>
-              <label for="message">Message</label>
-              <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+              <label for="contact-form-message">Message</label>
+              <textarea style="color:black" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Enter your message here"></textarea>
             </li>
        
             <li>
-              <button type="submit">Submit</button>
+              <input type="submit" value="Send" id="contact-form-submit" name="contact-form-submit">
             </li>
           </ul>
         </form>
@@ -954,8 +952,8 @@ Ideate. Innovate. Build!";
                   <div class="modal-body">
                      <form action="#about" method="post" id="coordinator-form" name="coordinator-form" style="display:inline">
                         Only for JU Students
-                        <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name"  >
-                        <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email"  >
+                        <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name"  required >
+                        <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email"  required>
                         <select class="form-control" id="coordinator-form-department" name="coordinator-form-department" placeholder="Department" >
                            <option value="" selected disabled hidden>Department</option>
                            <optgroup label="Engineering &amp; Technology">
@@ -1035,9 +1033,9 @@ Ideate. Innovate. Build!";
                   <div class="modal-body">
                      <form  action="#about" method="post" id="member-form" style="display:inline">
                         Subscribe for Official newsletter
-                        <input type="text" id="member-form-name" name="member-form-name" placeholder="Name">
-                        <input type="text" id="member-form-email" name="member-form-email" placeholder="Email">
-                        <input type="text" id="member-form-college" name="member-form-college" placeholder="College/University">											
+                        <input type="text" id="member-form-name" name="member-form-name" placeholder="Name" required>
+                        <input type="text" id="member-form-email" name="member-form-email" placeholder="Email" required>
+                        <input type="text" id="member-form-college" name="member-form-college" placeholder="College/University" required>											
                         <select class="form-control" id="member-form-department" name="member-form-department" placeholder="Department">
                            <option value="" selected disabled hidden>Department</option>
                            <optgroup label="Engineering &amp; Technology">
