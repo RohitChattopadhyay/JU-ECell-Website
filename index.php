@@ -370,7 +370,7 @@ Ideate. Innovate. Build!";
                <li class="hex">
                   <div class="hexIn">
                      <a class="hexLink" href="#">
-                        <img src="" alt="" />
+                        <img src="https://i.imgur.com/jQWjiWF.png" alt="Facebook on Campus" />
                         <h3>This is a title</h3>
                         <p>Some sample text about the article this hexagon leads to</p>
                      </a>
