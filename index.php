@@ -578,7 +578,7 @@ Ideate. Innovate. Build!";
         </div>
          <div class="container-map" style="margin-left:0;padding-right:0;height:600px">
             <h1>FIND US HERE </h1>
-            <div id="map" style="width: 100%" ></div>
+            <div id="map" style="width: 100%; color: black" ></div>
          </div>
 			</div>
       
