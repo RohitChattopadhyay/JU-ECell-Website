@@ -781,7 +781,7 @@ Ideate. Innovate. Build!";
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <p style="padding-left:30px">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
-										<small><b>Sauvik Banerjee</b><br>VP ,Tata CLiQ JU</small>
+										<small><b>Sauvik Banerjee</b><br>VP ,Tata CLiQ</small>
                                     </div>
                                 </div>
                             </blockquote>
