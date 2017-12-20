@@ -381,7 +381,7 @@ Ideate. Innovate. Build!";
                   <div class="hexIn">
                      <a class="hexLink" href="#">
 					 <span class="box-vertical-border"></span>
-                        <img src="" alt="Summer in a Startup " />
+                        <img src="https://i.imgur.com/qHO3RqD.png" alt="Summer in a Startup " />
                         <h3>Summer in a Startup</h3>
                         <p>Grab amazing internships this summer!</p>
 						<span class="hexIn skew-box-diagonal-border"></span>
