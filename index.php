@@ -112,7 +112,7 @@ Ideate. Innovate. Build!";
     width: 100%;
     z-index: 1;
     bottom: 0;
-    left: -2%;
+    left: -1.75%;
 }
 
 
