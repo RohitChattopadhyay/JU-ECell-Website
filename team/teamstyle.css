@@ -236,11 +236,35 @@ margin:20px auto;
 	
 	
 }
+.rtw .cal .imgbox img:hover
+{transform:scale(1);
+	
+}
 .rtw .cal
 {
 	margin-bottom:20px;
 	
 	width:calc(100% - 20px);
+	
+}
+.rtw .cal:before
+{
+	content:'';
+	position:absolute;
+	
+	bottom:-100%;
+	left:0;
+	width:100%;
+	height:100%;
+	background: #00ADFF2F;
+	z-index:1;
+	transition:0.5s;
+	mix-blend-mode:soft-light;
+	
+}
+
+.rtw .cal:hover .details
+{
 	
 }
 .rtw .cal .details
@@ -283,6 +307,10 @@ margin:20px auto;
 	
 	
 }
+.rtw .cal .imgbox img:hover
+{transform:scale(1);
+	
+}
 .rtw .cal
 {
 	margin-bottom:20px;
@@ -307,6 +335,26 @@ margin:20px auto;
 	
 
 	
+	
+}
+.rtw .cal:hover .details
+{
+	
+}
+.rtw .cal:before
+{
+	content:'';
+	position:absolute;
+	
+	bottom:-100%;
+	left:0;
+	width:100%;
+	height:100%;
+	background: #00ADFF2F;
+	
+	z-index:1;
+	transition:0.5s;
+	mix-blend-mode:soft-light;
 	
 }
 .rtw .cal .imgbox
