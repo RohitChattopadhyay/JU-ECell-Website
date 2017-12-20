@@ -123,13 +123,14 @@ Ideate. Innovate. Build!";
     border: 3px solid red;
     z-index: 2;
 }
+
       </style>
    </head>
    <body>
-      <button class="md-trigger" data-modal="modal-12" id="thank-you-modal-button" style="display:none" >thank you pop</button>
+      <button class="md-trigger" data-modal="modal-12" id="thank-you-modal-button" style="display:none" ></button>
       <div class="md-modal md-effect-4" id="modal-12">
          <div class="md-content">
-            <h3>Thank You<a class="md-close" style="float:right ; text-decoration:none;font:white">x</a></h3>
+            <h3>Thank You<a class="md-close" style="float:right ; text-decoration:none;color:white;cursor:pointer;">x</a></h3>
             <div>
                <p><?php 
                   echo $_SESSION['message']; ?></p>
@@ -540,26 +541,35 @@ Ideate. Innovate. Build!";
           <ul class="flex-outer">
 
 		<li>
-              <label for="contact-form-name">Name</label>
-              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your name here" required>
+              <label for="contact-form-name"></label>
+              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-name" id="contact-form-name" placeholder="Name*" required>
             </li>
             
             <li>
-              <label for="contact-form-email">Email</label>
-              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-email" id="contact-form-email" placeholder="Enter your email here" required>
+              <label for="contact-form-email"></label>
+              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-email" id="contact-form-email" placeholder="EMail Address*" required>
             </li>
             <li>
-              <label for="contact-form-phone">Phone</label>
-              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Enter your phone here">
+              <label for="contact-form-phone"></label>
+              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Contact Number">
             </li>
             <li>
-              <label for="contact-form-message">Message</label>
-              <textarea style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Enter your message here"></textarea>
+              <label for="contact-form-message"></label>
+              <textarea style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Your message*"></textarea>
             </li>
        
             <li>
-              <input type="submit" value="Send" id="contact-form-submit" name="contact-form-submit">
-            </li>
+			<center style="width:100%">
+              <input type="submit" value="Send" id="contact-form-submit" name="contact-form-submit" style="
+    position:  relative;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    z-index: 0;
+    background:  black;
+    box-shadow: 0 0;
+    border: 1px solid darkgrey;
+">
+            </center>
+			</li>
           </ul>
         </form>
         </div>
@@ -811,9 +821,9 @@ Ideate. Innovate. Build!";
                     </div>
                     <!-- Bottom Carousel Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://i.imgur.com/2tqMelr.png" alt="">
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://i.imgur.com/2tqMelrt.png" alt="">
                         </li>
-                        <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/cXQ9Wsr.png" alt="">
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/cXQ9Wsrt.png" alt="">
                         </li>
                         <li data-target="#testinomial-quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
                         </li>
@@ -995,10 +1005,10 @@ Ideate. Innovate. Build!";
                   <div class="modal-body">
                      <form action="#about" method="post" id="coordinator-form" name="coordinator-form" style="display:inline">
                         Only for JU Students
-                        <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name"  required >
-                        <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email"  required>
-                        <select class="form-control" id="coordinator-form-department" name="coordinator-form-department" placeholder="Department" >
-                           <option value="" selected disabled hidden>Department</option>
+                        <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name*"  required >
+                        <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email*"  required>
+                        <select class="form-control" id="coordinator-form-department" name="coordinator-form-department" placeholder="Department*" required>
+                           <option value="" selected disabled hidden>Department*</option>
                            <optgroup label="Engineering &amp; Technology">
                               <option value="Architecture">Architecture</option>
                               <option value="Chemical Engineering">Chemical Engineering</option>
@@ -1042,9 +1052,9 @@ Ideate. Innovate. Build!";
                               <option value="Physics">Physics</option>
                            </optgroup>
                         </select>
-                        <input type="number" id="coordinator-form-phone" name="coordinator-form-phone" placeholder="Phone" >
-                        <select name="coordinator-form-team" id="coordinator-form-team" class="form-control" >
-                           <option value="1" selected disabled hidden>Select a team Preference</option>
+                        <input type="number" id="coordinator-form-phone" name="coordinator-form-phone" placeholder="Phone*" required >
+                        <select name="coordinator-form-team" id="coordinator-form-team" class="form-control" required>
+                           <option value="1" selected disabled hidden>Select a team Preference*</option>
                            <option value="Any">Any</option>
                            <option value="Events">Events</option>
                            <option value="Marketing">Marketing</option>
@@ -1076,9 +1086,9 @@ Ideate. Innovate. Build!";
                   <div class="modal-body">
                      <form  action="#about" method="post" id="member-form" style="display:inline">
                         Subscribe for Official newsletter
-                        <input type="text" id="member-form-name" name="member-form-name" placeholder="Name" required>
-                        <input type="text" id="member-form-email" name="member-form-email" placeholder="Email" required>
-                        <input type="text" id="member-form-college" name="member-form-college" placeholder="College/University" required>											
+                        <input type="text" id="member-form-name" name="member-form-name" placeholder="Name*" required>
+                        <input type="text" id="member-form-email" name="member-form-email" placeholder="Email*" required>
+                        <input type="text" id="member-form-college" name="member-form-college" placeholder="College/University">											
                         <select class="form-control" id="member-form-department" name="member-form-department" placeholder="Department">
                            <option value="" selected disabled hidden>Department</option>
                            <optgroup label="Engineering &amp; Technology">
