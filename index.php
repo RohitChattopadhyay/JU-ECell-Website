@@ -497,7 +497,7 @@ Ideate. Innovate. Build!";
                </div>
                <div class='apply col-md-4'>
                   <h1  style="font-family: 'Archivo Black', sans-serif
-                     ">APPLY</h1>
+                     ">Join Us</h1>
                   <div class="application-buttons">
                      <button type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Coordinator-Modal">As Coordinator</button>
                      <button  type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Member-Modal">As Member</button>
@@ -541,20 +541,20 @@ Ideate. Innovate. Build!";
 
 		<li>
               <label for="contact-form-name">Name</label>
-              <input style="color:black" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your name here" required>
+              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-name" id="contact-form-name" placeholder="Enter your name here" required>
             </li>
             
             <li>
               <label for="contact-form-email">Email</label>
-              <input style="color:black" type="text" name="contact-form-email" id="contact-form-email" placeholder="Enter your email here" required>
+              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-email" id="contact-form-email" placeholder="Enter your email here" required>
             </li>
             <li>
               <label for="contact-form-phone">Phone</label>
-              <input style="color:black" type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Enter your phone here">
+              <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Enter your phone here">
             </li>
             <li>
               <label for="contact-form-message">Message</label>
-              <textarea style="color:black" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Enter your message here"></textarea>
+              <textarea style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Enter your message here"></textarea>
             </li>
        
             <li>
