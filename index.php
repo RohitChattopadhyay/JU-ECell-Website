@@ -403,8 +403,8 @@ Ideate. Innovate. Build!";
                      <a class="hexLink" href="#">
 					 <span class="box-vertical-border"></span>
                         <img src="https://i.imgur.com/jQWjiWF.png" alt="Facebook on Campus" />
-                        <h3>This is a title</h3>
-                        <p>Some sample text about the article this hexagon leads to</p>
+						<h3>FB on Campus</h3>
+                        <p>JU E-Cell, with FB & YouthKiAwaaz, set up a Startup workshop!</p>
 						<span class="hexIn skew-box-diagonal-border"></span>
                      </a>
                   </div>
@@ -780,8 +780,8 @@ Ideate. Innovate. Build!";
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
-                                        <p style="padding-left:30px">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
-                                        <small><b>Prof. Surjayan Sen</b><br>VC, Jadavpur University</small>
+                                        <p style="padding-left:30px">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
+										<small><b>Sauvik Banerjee</b><br>VP ,Tata CLiQ JU</small>
                                     </div>
                                 </div>
                             </blockquote>
@@ -791,8 +791,8 @@ Ideate. Innovate. Build!";
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
-                                        <p style="padding-left:30px">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
-										<small><b>Sauvik Banerjee</b><br>VP ,Tata CLiQ JU</small>
+                                        <p style="padding-left:30px">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
+                                        <small><b>Prof. Surjayan Sen</b><br>VC, Jadavpur University</small>
                                     </div>
                                 </div>
                             </blockquote>
@@ -811,9 +811,9 @@ Ideate. Innovate. Build!";
                     </div>
                     <!-- Bottom Carousel Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://i.imgur.com/cXQ9Wsr.png" alt="">
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://i.imgur.com/2tqMelr.png" alt="">
                         </li>
-                        <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/2tqMelr.png" alt="">
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/cXQ9Wsr.png" alt="">
                         </li>
                         <li data-target="#testinomial-quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
                         </li>
