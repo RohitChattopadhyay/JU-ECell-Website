@@ -138,15 +138,16 @@ Ideate. Innovate. Build!";
          </div>
       </div>
 	        <div class="container-fluid">
-		<div class="">
-<section class="navigation" style="width:100%">
+	<div>
+		<section class="navigation" style="width:100%">
             <div class="nav-container">
                <div class="brand">
-                  <p> <a href="#!"><img src="assets/images/main_logo2.png" style="height: 55px;padding-top:20%"></a></p>
+                  <p style="
+    padding-top: 0px;
+    margin-top: 0;
+"> <a href="#"><img src="https://i.imgur.com/NSBCfAX.png" style="height: 80%;margin-top: 4px;"></a></p>
                </div>
-               <div class="brand">
-                  <p> <a href="#!"><img src="assets/images/main_logo.png" style="height: 55px;padding-top:20%"></a></p>
-               </div>
+               
                <nav class="headd">
                   <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
                   <ul class="nav-list">
@@ -158,7 +159,7 @@ Ideate. Innovate. Build!";
                      </li>
                      <li>
                         <a href="#">Initiatives</a>
-                        <ul class="nav-dropdown">
+                        <ul class="nav-dropdown" style="display: none;">
                            <li>
                               <a href="#">Hult Prize</a>
                            </li>
@@ -175,7 +176,7 @@ Ideate. Innovate. Build!";
                      </li>
                      <li>
                         <a href="#">Apply</a>
-                        <ul class="nav-dropdown">
+                        <ul class="nav-dropdown" style="display: none;">
                            <li>
                               <a href="#">As Member</a>
                            </li>
@@ -194,7 +195,6 @@ Ideate. Innovate. Build!";
                </nav>
             </div>
          </section>
-
 
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
                <!-- Wrapper for slides -->
