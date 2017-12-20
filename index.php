@@ -781,7 +781,7 @@ Ideate. Innovate. Build!";
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
                                         <p style="padding-left:30px">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
-                                        <small><b>Prof. Surjayan Sen</b><br>VC JU</small>
+                                        <small><b>Prof. Surjayan Sen</b><br>VC, Jadavpur University</small>
                                     </div>
                                 </div>
                             </blockquote>
@@ -791,8 +791,8 @@ Ideate. Innovate. Build!";
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
-                                        <p style="padding-left:30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                                        <small>Someone famous</small>
+                                        <p style="padding-left:30px">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
+										<small><b>Sauvik Banerjee</b><br>VP ,Tata CLiQ JU</small>
                                     </div>
                                 </div>
                             </blockquote>
@@ -811,9 +811,9 @@ Ideate. Innovate. Build!";
                     </div>
                     <!-- Bottom Carousel Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/mantia/128.jpg" alt="">
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://i.imgur.com/cXQ9Wsr.png" alt="">
                         </li>
-                        <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg" alt="">
+                        <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/2tqMelr.png" alt="">
                         </li>
                         <li data-target="#testinomial-quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
                         </li>
