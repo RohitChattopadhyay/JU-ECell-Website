@@ -144,7 +144,7 @@ Ideate. Innovate. Build!";
 	<div>
 		<section class="navigation" style="width:100%">
             <div class="nav-container">
-               <div class="brand">
+               <div class="brand" style="width : 25%">
                   <p style="
     padding-top: 0px;
     margin-top: 0;
