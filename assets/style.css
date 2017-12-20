@@ -156,7 +156,10 @@ body{
 }
 .vision h2{
   
-  font-size: 55px;
+  font-size: 65px;
+}
+.vision p{
+	font-size:20px;
 }
 
 
@@ -305,7 +308,30 @@ body{
     .hex:nth-child(7n+5){ /* first hexagon of even rows */
       margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
     }
-	
+	.vision h2{
+  
+  font-size: 55px;
+}
+.vision p{
+	font-size:19px;
+}
+#about p{
+  font-family: 'Scada', sans-serif;
+  font-size:19px;
+  
+}
+#about h1{
+  color: black ; 
+  font-size:50px;
+}
+
+	p{
+		font-size:19px;
+		
+	}
+	h1{
+		font-size:50px;
+	}
   }
   
   @media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
@@ -318,9 +344,33 @@ body{
     .hex:nth-child(5n+4){ /* first hexagon of even rows */
       margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
     }
+	.vision h2{
+  
+  font-size: 50px;
+}
+.vision p{
+	font-size:17px;
+}
+#about p{
+  font-family: 'Scada', sans-serif;
+  font-size:17px;
+  
+}
+#about h1{
+  color: black ; 
+  font-size:48px;
+}
+p{
+		font-size:17px;
+		
+	}
+	h1{
+		font-size:50px;
+	}
+
   }
   
-  @media (max-width: 600px) { /* <- 2-1  hexagons per row */
+  @media (max-width: 600px) and (min-width:401px)  { /* <- 2-1  hexagons per row */
     #hexGrid{
       padding-bottom: 11.2%
     }
@@ -330,12 +380,58 @@ body{
     .hex:nth-child(3n+3){ /* first hexagon of even rows */
       margin-left:25%;  /* = width of .hex / 2  to indent even rows */
     }
+	.vision h2{
+  
+  font-size: 45px;
+}
+.vision p{
+	font-size:16px;
+}
+#about p{
+  font-family: 'Scada', sans-serif;
+  font-size:12px;
+  
+}
+#about h1{
+  color: black ; 
+  font-size:35px;
+}
+p{
+		font-size:15px;
+		
+	}
+	h1{
+		font-size:35px;
+	}
   }
   
   @media (max-width: 400px) {
       #hexGrid {
           font-size: 13px;
       }
+	  .vision h2{
+  
+  font-size: 41px;
+}
+.vision p{
+	font-size:14px;
+}
+#about p{
+  font-family: 'Scada', sans-serif;
+  font-size:8px;
+  
+}
+#about h1{
+  color: black ; 
+  font-size:31px;
+}
+p{
+		font-size:13px;
+		
+	}
+	h1{
+		font-size:32px;
+	}
   }
 
 #recents{
@@ -557,10 +653,12 @@ body{
 }
 #about p{
   font-family: 'Scada', sans-serif;
+  font-size:21px;
   
 }
 #about h1{
   color: black ; 
+  font-size:55px;
 }
 
 #counter{
@@ -639,6 +737,10 @@ body{
   #pasts{
     height:230%;
   }
+  .vasan{
+	  
+	  font-size: 140px;
+  }
 }
 @media only screen and (min-width:444px) and (max-width:607px){
   #pasts{
@@ -696,7 +798,7 @@ h1 {
 
 p {
   margin-bottom: 20px;
-  font-size: 17px;
+  
   line-height: 2;
 }
 
