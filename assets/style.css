@@ -1353,7 +1353,7 @@ a{
 	
 	
 }
-#modal-form input[type=text],input[type=number],input[type=email]
+#modal-form input[type=text],input[type=number],input[type=email],textarea
 {
 	background-color:#f6f6f6;
 	border:none;
@@ -1378,6 +1378,13 @@ a{
 	border-bottom:2px solid deepskyblue;
 	
 }
+#modal-form textarea:focus
+{
+	background-color:white;
+	border-bottom:2px solid deepskyblue;
+	
+}
+
 #modal-form input[type=text]:placehold
 {
 	color:#cccccc;

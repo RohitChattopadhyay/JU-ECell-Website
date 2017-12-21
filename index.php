@@ -36,13 +36,12 @@
          		} 
          }
          
-         if( isset($_POST['member-form-submit'] )) {
-         		$member_name=addslashes($_POST['member-form-name']);
-         		$member_email=addslashes($_POST['member-form-email']);
-         		$member_department=addslashes($_POST['member-form-department']);
-         		$member_institute=addslashes($_POST['member-form-college']);
-         		$member_pass=addslashes($_POST['member-form-pass']);
-         		$member_phone=addslashes($_POST['member-form-phone']);
+         if( isset($_POST['ambassador-form-submit'] )) {
+         		$ambassador_name=addslashes($_POST['ambassador-form-name']);
+         		$ambassador_email=addslashes($_POST['ambassador-form-email']);
+         		$ambassador_institute=addslashes($_POST['ambassador-form-college']);
+                 $ambassador_phone=addslashes($_POST['ambassador-form-phone']);
+                 $ambassador_reasons=addslashes($_POST['ambassador-form-reason']);
          		$_SESSION['message']="You just signed up to be well-informed about the great things we do at the Jadavpur University E-Cell!<br>
 Ideate. Innovate. Build!";
          		
@@ -158,10 +157,10 @@ Ideate. Innovate. Build!";
                         <a href="#">Home</a>
                      </li>
                      <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                      </li>
                      <li>
-                        <a href="#">Initiatives</a>
+                        <a href="#pasts">Initiatives</a>
                         <ul class="nav-dropdown" style="display: none;">
                            <li>
                               <a href="#">Hult Prize</a>
@@ -178,11 +177,9 @@ Ideate. Innovate. Build!";
                         <a href="#">The Team</a>
                      </li>
                      <li>
-                        <a href="#">Apply</a>
+                        <a href="#apply">Apply</a>
                         <ul class="nav-dropdown" style="display: none;">
-                           <li>
-                              <a href="#">As Member</a>
-                           </li>
+                          
                            <li>
                               <a href="#">As Coordinator</a>
                            </li>
@@ -192,7 +189,11 @@ Ideate. Innovate. Build!";
                         </ul>
                      </li>
                      <li>
-                        <a href="#">Contact</a>
+                        <a href="#ContactUs">Contact</a>
+                     </li>
+                     <li>
+                        <a href="https://juecell.in/alumni/" target="_black">For the Alumni</a>
+                        
                      </li>
                   </ul>
                </nav>
@@ -499,12 +500,12 @@ Ideate. Innovate. Build!";
                      The Entrepreneurship Cell.
                   </p>
                </div>
-               <div class='apply col-md-4'>
+               <div class='apply col-md-4' id="apply">
                   <h1  style="font-family: 'Archivo Black', sans-serif
                      ">Join Us</h1>
                   <div class="application-buttons">
                      <button type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Coordinator-Modal">As Coordinator</button>
-                     <button  type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Member-Modal">As Member</button>
+                     <button  type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Ambassador-Modal">As Campuss Ambassador</button>
                   </div>
                </div>
             </div>
@@ -783,7 +784,7 @@ Ideate. Innovate. Build!";
 			<div id="testinomial" class="container-fluid">
 			        <div class="roww">
             <div class="col-md-12">
-			<h1 style="color: black ;font-family: 'Changa One', cursive; text-align:center"> Testinomial </h1>
+			<h1 style="color: black ;font-family: 'Changa One', cursive; text-align:center"> Testimonial </h1>
                 <div class="carousel slide" data-ride="carousel" id="testinomial-quote-carousel">
 				
                     <!-- Carousel Slides / Quotes -->
@@ -1076,79 +1077,35 @@ Ideate. Innovate. Build!";
          </div>
       </div>
       <!-- Modal content for coordinator ends-->
-      <!-- Modal content for member-->
+      <!-- Modal content for Campus Ambassador-->
       <div id="modal-form" class="row" >
-         <div class="modal fade" id="Member-Modal" role="dialog" class="col-xs-12">
+         <div class="modal fade" id="Ambassador-Modal" role="dialog" class="col-xs-12">
             <div class="formstl">
                <!-- Modal content-->
                <div  class="modal-content">
                   <div class="modal-header">
-                     <h3 class="modal-title">Apply as a Member</h3>
+                     <h3 class="modal-title">Apply as a Campus Ambassador</h3>
                      <button style="background: 00; border: 0; font-size: 21px;" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
-                     <form  action="#about" method="post" id="member-form" style="display:inline">
-                        Subscribe for Official newsletter
-                        <input type="text" id="member-form-name" name="member-form-name" placeholder="Name*" required>
-                        <input type="text" id="member-form-email" name="member-form-email" placeholder="Email*" required>
-                        <input type="text" id="member-form-college" name="member-form-college" placeholder="College/University">											
-                        <select class="form-control" id="member-form-department" name="member-form-department" placeholder="Department">
-                           <option value="" selected disabled hidden>Department</option>
-                           <optgroup label="Engineering &amp; Technology">
-                              <option value="Architecture">Architecture</option>
-                              <option value="Chemical Engineering">Chemical Engineering</option>
-                              <option value="Civil Engineering">Civil Engineering</option>
-                              <option value="Computer Science &amp; Engineering">Computer Science &amp; Engineering</option>
-                              <option value="Construction Engineering">Construction Engineering</option>
-                              <option value="Electrical Engineering">Electrical Engineering</option>
-                              <option value="Electronics &amp; Telecommunication Engineering">Electronics &amp; Telecommunication Engineering</option>
-                              <option value="Food Technology &amp; Bio-Chemical Engineering">Food Technology &amp; Bio-Chemical Engineering</option>
-                              <option value="Information Technology">Information Technology</option>
-                              <option value="Instrumentation &amp; Electronics Engineering">Instrumentation &amp; Electronics Engineering</option>
-                              <option value="Mechanical Engineering">Mechanical Engineering</option>
-                              <option value="Metallurgical &amp; Material Engineering">Metallurgical &amp; Material Engineering</option>
-                              <option value="Pharmaceutical Technology">Pharmaceutical Technology</option>
-                              <option value="Power Engineering">Power Engineering</option>
-                              <option value="Printing Engineering">Printing Engineering</option>
-                              <option value="Production Engineering">Production Engineering</option>
-                           </optgroup>
-                           <optgroup label="Arts">
-                              <option value="Bengali">Bengali</option>
-                              <option value="Comparative Literature">Comparative Literature</option>
-                              <option value="Economics">Economics</option>
-                              <option value="Education">Education</option>
-                              <option value="English">English</option>
-                              <option value="Film Studies">Film Studies</option>
-                              <option value="History">History</option>
-                              <option value="International Relations">International Relations</option>
-                              <option value="Library &amp; Information Science">Library &amp; Information Science</option>
-                              <option value="Philosophy">Philosophy</option>
-                              <option value="Physical Education">Physical Education</option>
-                              <option value="Sanskrit">Sanskrit</option>
-                              <option value="Sociology">Sociology</option>
-                           </optgroup>
-                           <optgroup label="Science">
-                              <option value="Chemistry">Chemistry</option>
-                              <option value="Geography">Geography</option>
-                              <option value="Geological sciences">Geological sciences</option>
-                              <option value="Instrumentation Science">Instrumentation Science</option>
-                              <option value="Life science &amp; Bio-technology">Life science &amp; Bio-technology</option>
-                              <option value="Mathematics">Mathematics</option>
-                              <option value="Physics">Physics</option>
-                           </optgroup>
-                        </select>
-                        <input type="number" id="member-form-pass" name="member-form-pass" placeholder="Pass year">
-                        <input type="number" id="member-form-phone" name="member-form-phone" placeholder="Phone">
+                     <form  action="#about" method="post" id="ambassador-form" style="display:inline">
+                        Be a part of the extended family
+                        <input type="text" id="ambassador-form-name" name="ambassador-form-name" placeholder="Name*" required>
+                        <input type="text" id="ambassador-form-email" name="ambassador-form-email" placeholder="Email*" required>
+                        <input type="text" id="ambassador-form-college" name="ambassador-form-college" placeholder="College/University*" required>											
+                       
+                        <textarea name="ambassador-form-reason" id="ambassador-form-reason" cols="30" rows="6" placeholder="Your reasons for applying"></textarea>
+                        <input type="number" id="ambassador-form-phone" name="ambassador-form-phone" placeholder="Phone">
                         <br>
-                        <input type="submit" value="Subscribe" name="member-form-submit">
+                        <input type="submit" value="Subscribe" name="ambassador-form-submit">
                      </form>
-                     <span id="member-form-ty" style="display:none">Thank You for subscribing.</span>
+                     <span id="ambassador-form-ty" style="display:none">Thank You for subscribing.</span>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- Modal content for member ends-->
+      <!-- Modal content for Campus Ambassador ends-->
 
       <script type="text/javascript">
          $(window).load(function() {
