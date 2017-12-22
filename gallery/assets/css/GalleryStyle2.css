@@ -331,6 +331,11 @@ nav ul ul ul li {
 	
 	
 }
+.fixed {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
 
 
 
@@ -359,6 +364,11 @@ nav ul ul ul li {
 	border:solid white;
 	overflow:hidden;
 	opacity:0.5;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
 }
  .rtw .cal img:hover{
 	
