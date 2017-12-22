@@ -564,7 +564,7 @@ Ideate. Innovate. Build!";
             </li>
             <li>
               <label for="contact-form-message"></label>
-              <textarea style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Your message*"></textarea>
+              <textarea style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black; border-radius:0" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Your message*"></textarea>
             </li>
        
             <li>
