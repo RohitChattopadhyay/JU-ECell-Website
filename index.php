@@ -39,14 +39,14 @@
          if( isset($_POST['ambassador-form-submit'] )) {
          		$ambassador_name=addslashes($_POST['ambassador-form-name']);
          		$ambassador_email=addslashes($_POST['ambassador-form-email']);
-         		$ambassador_institute=addslashes($_POST['ambassador-form-college']);
-                 $ambassador_phone=addslashes($_POST['ambassador-form-phone']);
-                 $ambassador_reasons=addslashes($_POST['ambassador-form-reason']);
+         		$ambassador_college=addslashes($_POST['ambassador-form-college']);
+                 	$ambassador_phone=addslashes($_POST['ambassador-form-phone']);
+                 	$ambassador_reasons=addslashes($_POST['ambassador-form-reason']);
          		$_SESSION['message']="You just signed up to be well-informed about the great things we do at the Jadavpur University E-Cell!<br>
 Ideate. Innovate. Build!";
          		
-         		$Msql = "INSERT INTO subscribe (name, email, phone, college, department, passyear) VALUES ('$member_name','$member_email','$member_phone','$member_institute','$member_department','$member_pass')";
-         		if (mysqli_query($connection, $Msql)) {
+         		$Asql = "INSERT INTO ambassador (name, email, phone, college, reason) VALUES ('$ambassador_name','$ambassador_email','$ambassador_phone','$ambassador_college','$ambassador_reason')";
+         		if (mysqli_query($connection, $Asql)) {
          		} else {
          		    $error_message= "Connection failed: " . mysqli_connect_error();
          			echo "<script>console.log(\"" . addslashes($error_message) . "\");</script>";		
@@ -1097,7 +1097,7 @@ Ideate. Innovate. Build!";
                         <textarea name="ambassador-form-reason" id="ambassador-form-reason" cols="30" rows="6" placeholder="Your reasons for applying"></textarea>
                         <input type="number" id="ambassador-form-phone" name="ambassador-form-phone" placeholder="Phone">
                         <br>
-                        <input type="submit" value="Subscribe" name="ambassador-form-submit">
+                        <input type="submit" value="Apply" name="ambassador-form-submit">
                      </form>
                      <span id="ambassador-form-ty" style="display:none">Thank You for subscribing.</span>
                   </div>
