@@ -105,8 +105,13 @@ Ideate. Innovate. Build!";
 	#home-gallery .ti {
 		display:none;	
 	}
-	
-	
+	@media screen and (min-width: 900px) {
+
+	.honeycomb-size-fix{
+		padding-left:50px;
+		padding-right:50px;
+	      }
+	}
 	.hexLink .skew-box-diagonal-border {
     transform: rotate3d(0 0 1 90deg) skewY(-40deg);
     border: 3px solid red;
@@ -344,7 +349,7 @@ Ideate. Innovate. Build!";
 
         
 	  	<div class="container-fluid ">
-			<div class="section" style="text-align: center" id="pasts" >
+			<div class="section honeycomb-size-fix" style="text-align: center" id="pasts" >
             <h1 style="color: white ;font-family: 'Changa One', cursive;
                "> PAST EVENTS </h1>
             <ul id="hexgrid" style="padding-left:0px">
