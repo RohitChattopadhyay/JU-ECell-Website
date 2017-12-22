@@ -20,6 +20,15 @@ body {
 .heading-title {
     margin-bottom: 100px;
 }
+.header{
+	background: #0E0E0E;
+	padding: 3px;
+  padding: 10px 20px;
+  z-index:1;
+  margin-left:-20px;
+ 
+	
+}
 .text-center {
     text-align: center;
 }
@@ -136,6 +145,56 @@ body {
     color: #a5a5a5;
     letter-spacing: 1px;
 }
+.header h2{
+	font-size:49px;
+}
+/*media query*/
+
+
+
+
+    @media (max-width: 1200px) and (min-width:901px) { 
+  
+	.header h2{
+		font-size:42px;
+	}
+	
+  }
+    @media (max-width: 900px) and (min-width:601px) { 
+
+	h3{
+		font-size:27px;
+		
+	}
+  }
+    @media (max-width: 600px) and (min-width:401px)  { 
+   
+   h3{
+		font-size:23px;
+		
+	}
+
+  }
+    @media (max-width: 400px) {
+		h3{
+		font-size:20px;
+		
+	}
+      
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*media query*/
 
 
 
