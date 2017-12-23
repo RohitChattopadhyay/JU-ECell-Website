@@ -219,8 +219,13 @@ Ideate. Innovate. Build!";
                      </div>
                      <!-- /header-text -->  
                   </div>
-                  <div class="item" id="toptw" style="color:white">
-                     <img src="carousel1.svg" alt="Chicago" style="width:100%;">
+                  <div class="item" id="toptw" style="color:white;background-image: url(carousel1.svg);
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 700px">
+                     
                      <div class="header-text" style="color:white">
                         <div class="col-md-12 text-center">
                            <h2>
