@@ -209,7 +209,7 @@ Ideate. Innovate. Build!";
                <!-- Wrapper for slides -->
                <div class="carousel-inner">
                   <div class="item active" id="topthree" style="color:white">
-                     <img src="https://www.ehub.ualberta.ca/wp-content/uploads/2017/10/eventbrite-IE-2017-1.png" style="width:100%;">
+                     <img src="carousel1.svg" style="width:100%;">
                      <div class="header-text" style="color:white">
                         <div class="col-md-12 text-center">
                            <h1>
@@ -219,8 +219,8 @@ Ideate. Innovate. Build!";
                      </div>
                      <!-- /header-text -->  
                   </div>
-                  <div class="item" id="toptwo" style="color:white">
-                     <img src="assets/images/poster1.jpg" alt="Chicago" style="width:100%;">
+                  <div class="item" id="toptw" style="color:white">
+                     <img src="carousel1.svg" alt="Chicago" style="width:100%;">
                      <div class="header-text" style="color:white">
                         <div class="col-md-12 text-center">
                            <h2>
