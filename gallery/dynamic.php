@@ -1,12 +1,12 @@
 <?php
 $JSON = json_decode(file_get_contents('eventDetails.json'), true); // Getting JSON file named eventDetails.json and encoding the JSON into an associative array object
 
-$eCode="201701"; //Will get input from URL Query
-
+$eCode= $_SERVER['QUERY_STRING']; //Will get input from URL Query
+$i=0;
 $HTML_summary = $JSON[$eCode]['summary'];
 $HTML_name = $JSON[$eCode]['name'];
 $HTML_year =  $JSON[$eCode]['year'];
-$SQL_ecode =  $JSON[$eCode]['SQLcode'];
+$SQL_ecode =  $JSON[$eCode]['code'];
 $SQL_year =  $JSON[$eCode]['SQLyear'];
 $HTML_display_section2 = $JSON[$eCode]['section'][1]; // (0)1-> Gallery           (1)2->Judges           (2)3-> Sponsors
 $HTML_display_section3 = $JSON[$eCode]['section'][2];
@@ -27,6 +27,20 @@ $HTML_style_Sponsor_bgColor = $JSON[$eCode]['color'][4]['bg-color'];
 $HTML_style_Footer_fontColor = $JSON[$eCode]['color'][5]['font-color'];
 $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
 
+//DateBase PHP Code Begins
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "juecelli_images";
+
+// Creating connection
+$connection = mysqli_connect($servername, $username, $password, $dbname);
+// Checking connection
+if (!$connection) {
+    die("<script>console.log('Connection Failed: " . addslashes(mysqli_connect_error()) . "');</script>");
+}
+// Connection Completed
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,10 +53,10 @@ $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
 	  <link rel="stylesheet" type="text/css" href="assets/css/GalleryStyle2.css?noCache">
       <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Changa+One" rel="stylesheet">
-      <link href="./assets/lightgallery/css/lightgallery.min.css" rel="stylesheet">
+      <link href="assets/lightgallery/css/lightgallery.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
-	  <title><?php echo $HTML_name + ' ' + $HTML_year; ?> | JU ECell</title>
+	  <title><?php echo $HTML_name . ' ' . $HTML_year; ?> | JU ECell</title>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
    </head>
    <body>
@@ -57,16 +71,14 @@ $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
          <div class="row">
             <div class="col-md-12 " style="text-align:center;padding-bottom:10%;background-color:<?php echo $HTML_style_Front_bgColor; ?>" >
 			<div class="header " id="header">
-               <h2 style="font-family: 'Changa One', cursive"><?php echo $HTML_name; ?> <?php echo $HTML_year; ?></h2>
+               <h2 style="font-family: 'Changa One', cursive"><?php echo $HTML_name . ' ' . $HTML_year; ?></h2>
 			   </div>
                <hr>
                <h3 style="text-align:justify;color:<?php echo $HTML_style_Front_fontColor; ?>;"><?php echo $HTML_summary; ?></h3>
             </div>
          </div>
 		 
-		 <script src="script.js">
-
-</script>
+<script src="script.js"></script>
 		
          <!-- Event Head Starts-->
          <div class="row event-header" style="background-color:<?php echo $HTML_style_Gallery_bgColor; ?>">
@@ -78,62 +90,45 @@ $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
                   <span class="col-sm-12">
                      <div class="demo-gally">
                         <ul id="lightgallery" class="list-unstyled rtw">
-                           <li class="cal" data-responsive="img/1-375.jpg 375, img/1-480.jpg 480, img/1.jpg 800" data-src="img/1-1600.jpg" data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/2-1600.jpg">
+<?php
+            $GallerySQL = "SELECT `link` FROM image$SQL_year WHERE `event`=$SQL_ecode AND `section`=1 ORDER BY RAND()";
+            $GalleryResult = mysqli_query($connection, $GallerySQL);
+if (mysqli_num_rows($GalleryResult) > 0) {
+    // output data of each row
+    $i=0;
+    while($row = mysqli_fetch_assoc($GalleryResult)) {
+            $i +=1;
+        
+        if($i<21){
+            echo "<li class='cal' data-src='https://i.imgur.com/" . $row['link'] . ".png'>
+                              <a href=''>
+                              <img class='img-responsive imgx' src='https://i.imgur.com/" . $row['link'] . "t.png'>
                               </a>
-                           </li>
-                           <li class="cal" data-src="img/2-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/2-1600.jpg">
+                           </li>";
+        }
+        else{
+            echo "<li class='cal' style='display:none' data-src='https://i.imgur.com/" . $row['link'] . "l.png'>
+                              <a href=''>
+                              <center><img class='img-responsive imgx' src='https://i.imgur.com/" . $row['link'] . "t.png'></center>
                               </a>
-                           </li>
-                           <li class="cal" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/thumb-4.jpg">
-                              </a>
-                           </li>
-						   <li class="cal" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/thumb-4.jpg">
-                              </a>
-                           </li>
-						   <li class="cal" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/thumb-4.jpg">
-                              </a>
-                           </li>
-						   <li class="cal" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/thumb-4.jpg">
-                              </a>
-                           </li>
-						   <li class="cal" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/thumb-4.jpg">
-                              </a>
-                           </li>
-						   <li class="cal" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/thumb-4.jpg">
-                              </a>
-                           </li>
-						   <li class="cal" data-responsive="img/4-375.jpg 375, img/4-480.jpg 480, img/4.jpg 800" data-src="img/4-1600.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                              <a href="">
-                              <img class="img-responsive imgx" src="img/thumb-4.jpg">
-                              </a>
-                           </li>
+                           </li>";
+        }
+        
+    }
+} else {
+}
+?>
 						   
-                        </ul>
-                     </div>
+                        </ul><br>                     </div>
+
                      <script type="text/javascript">
                         $(document).ready(function(){
                             $('#lightgallery').lightGallery();
                         });
                      </script>
                      <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-                     <script src="./assets/lightgallery/js/lightgallery-all.min.js"></script>
-                     <script src="./assets/lightgallery/js/jquery.mousewheel.min.js"></script>
+                     <script src="assets/lightgallery/js/lightgallery-all.min.js"></script>
+                     <script src="assets/lightgallery/js/jquery.mousewheel.min.js"></script>
                   </span>
                </div>
             </div>
@@ -152,42 +147,22 @@ $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
                <div class="row">
                   <span>
                      <div id="judges-gallery" class="owl-carousel owl-theme">
-                        <div class="item">
-                           <h4>1</h4>
-                        </div>
-                        <div class="item">
-                           <h4>2</h4>
-                        </div>
-                        <div class="item">
-                           <h4>3</h4>
-                        </div>
-                        <div class="item">
-                           <h4>4</h4>
-                        </div>
-                        <div class="item">
-                           <h4>5</h4>
-                        </div>
-                        <div class="item">
-                           <h4>6</h4>
-                        </div>
-                        <div class="item">
-                           <h4>7</h4>
-                        </div>
-                        <div class="item">
-                           <h4>8</h4>
-                        </div>
-                        <div class="item">
-                           <h4>9</h4>
-                        </div>
-                        <div class="item">
-                           <h4>10</h4>
-                        </div>
-                        <div class="item">
-                           <h4>11</h4>
-                        </div>
-                        <div class="item">
-                           <h4>12</h4>
-                        </div>
+<?php
+            $JudgeSQL = "SELECT `link` FROM image$SQL_year WHERE `event`=$SQL_ecode AND `section`=2 ORDER BY RAND()";
+            $JudgeResult = mysqli_query($connection, $JudgeSQL);
+if (mysqli_num_rows($JudgeResult) > 0) {
+    // output data of each row
+    while($row = mysqli_fetch_assoc($JudgeResult)) {
+
+            echo "<div class='item'>
+                           <img src='https://i.imgur.com/" . $row['link'] . "t.png'>
+                    </div>";
+        
+        
+    }
+} else {
+}
+?>
                      </div>
                   </span>
                </div>
@@ -201,48 +176,22 @@ $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
                <div class="row">
                   <span class="col-sm-12">
                      <div id="sponsor-gallery" class="owl-carousel owl-theme">
-                        <div class="item" style="width:250px">
-                           <h4>1</h4>
-                        </div>
-                        <div class="item" style="width:100px">
-                           <h4>2</h4>
-                        </div>
-                        <div class="item" style="width:500px">
-                           <h4>3</h4>
-                        </div>
-                        <div class="item" style="width:100px">
-                           <h4>4</h4>
-                        </div>
-                        <div class="item" style="width:50px">
-                           <h4>6</h4>
-                        </div>
-                        <div class="item" style="width:250px">
-                           <h4>7</h4>
-                        </div>
-                        <div class="item" style="width:120px">
-                           <h4>8</h4>
-                        </div>
-                        <div class="item" style="width:420px">
-                           <h4>9</h4>
-                        </div>
-                        <div class="item" style="width:120px">
-                           <h4>10</h4>
-                        </div>
-                        <div class="item" style="width:300px">
-                           <h4>11</h4>
-                        </div>
-                        <div class="item" style="width:450px">
-                           <h4>12</h4>
-                        </div>
-                        <div class="item" style="width:220px">
-                           <h4>13</h4>
-                        </div>
-                        <div class="item" style="width:150px">
-                           <h4>14</h4>
-                        </div>
-                        <div class="item" style="width:600px">
-                           <h4>15</h4>
-                        </div>
+<?php
+            $SponsSQL = "SELECT `link` FROM image$SQL_year WHERE `event`=$SQL_ecode AND `section`=3 ORDER BY RAND()";
+            $SponsResult = mysqli_query($connection, $SponsSQL);
+if (mysqli_num_rows($SponsResult) > 0) {
+    // output data of each row
+    while($row = mysqli_fetch_assoc($SponsResult)) {
+
+            echo "<div class='item'>
+                           <img src='https://i.imgur.com/" . $row['link'] . "t.png'>
+                    </div>";
+        
+        
+    }
+} else {
+}
+?>
                      </div>
                   </span>
                </div>
@@ -269,19 +218,6 @@ $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
              loop:true,
              margin:10,
          	autoplay: true,
-             responsive:{
-                 0:{
-                     items:1
-                 },
-                 600:{
-                     items:3,
-         			slideBy:3
-                 },
-                 1000:{
-                     items:5,
-         			slideBy:5
-                 }
-             }
          })
       </script>
       <footer>
@@ -335,3 +271,4 @@ $HTML_style_Footer_bgColor = $JSON[$eCode]['color'][5]['bg-color'];
       </footer>
    </body>
 </html>
+<?php mysqli_close($connection); ?>

@@ -134,6 +134,51 @@
       }
     ]
   },
+  "201704": {
+    "summary": "'Ideas for Change' - in collaboration with the Dainik Jagran was a step forward in creating awareness and inspiring the young minds to think along the lines of innovation, to seek solutions to the problems that are crippling our nation in the form of business plans. The model ideas were intended to improve the conditions under seven domains or 'Saat Sarokar'', as they were called. The ideas were judged by the esteemed Gaurav Kapoor (IIMC-Innovation Park) and Vaibhav Limaye (Dainik Jagaran).<br>•\tHackathon in partnership with Developer Circles from Facebook. One of the biggest coding events of Kolkata, it invited euphoric young minds to design Apps and pitch it as a business model! With the Winning team bagging the coveted FbStart Membership, Hackathon 2017 was indeed a huge success!<br>•\tNIVT- The most trending buzzword these days is without any doubts- Data Analytics. As a part of the two-day E-Weekend,  E-Cell hosted a workshop on Big Data Analysis along with one of the top 10 institutes in India in the field-  NIVT.The two-day workshop spanned across the basics of Hadoop and Sentiment Analysis along with hands-on training.The event saw an overwhelming participation from students across Jadavpur University and Kolkata.\r\n",
+    "name": "E Weekend",
+    "year": 2017,
+    "SQLyear": 2017,
+    "code": "3 OR `event`=10 OR `event`=11 OR `event`=2",
+    "section": [
+      "",
+      "",
+      ""
+    ],
+    "color": [
+      {
+        "section_name": "Header",
+        "bg-color": "",
+        "font-color": ""
+      },
+      {
+        "section_name": "Front",
+        "bg-color": "",
+        "font-color": "",
+        "bg-img": ""
+      },
+      {
+        "section_name": "Gallery",
+        "bg-color": "",
+        "font-color": ""
+      },
+      {
+        "section_name": "Mentor",
+        "bg-color": "",
+        "font-color": ""
+      },
+      {
+        "section_name": "Sponsor",
+        "bg-color": "",
+        "font-color": ""
+      },
+      {
+        "section_name": "Footer",
+        "bg-color": "",
+        "font-color": ""
+      }
+    ]
+  },
   "201705": {
     "summary": "Startup Weekend 4.0 in association with Jadavpur University E-Cell powered by Google for Entrepreneurs was a movement of active and empowered entrepreneurs, learning the tricks of founding startups and launching successful ventures. Teams organically formed around the top ideas as determined by popular vote and after a 54-hour frenzy of business model creation, coding, designing, and market validation, the weekends culminated with presentations in front of local entrepreneurial leaders with another opportunity for critical feedback.",
     "name": "Startup Weekend",
