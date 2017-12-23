@@ -16,7 +16,7 @@ body {
   margin-bottom: 10%;
   background-color: white;
   box-shadow: 0px 5px 20px #555;
-  margin-right : 20px ; 
+  
   padding-right : 0 !important;
   padding-left : 0 !important;
 }
@@ -82,12 +82,13 @@ body {
 
 
 .jumbotron{
-	text-align:center;
+	text-align:left;
 	 height:100vh;
-	background-image: url('http://algolritmo.com/wp-content/uploads/2017/02/champions-league-2017.jpg');
+	background-image: url('http://itsgametimesomewhere.com/wp-content/uploads/2010/10/USCVolleyballTrophyWall1.jpg');
 	background-attachment : fixed;
 	background-repeat : no-repeat ; 
 	background-size : cover ;
+	background-position: center ; 
 	font-weight : 400 ;
 	color: white;
 }
@@ -107,7 +108,11 @@ body {
 
 
 
-
+@media screen and (min-width: 988px){
+	.card{
+		margin-right: 20px ; 
+	}
+}
 
 
 
@@ -227,7 +232,7 @@ nav ul ul ul li {
 
 	
 /* Change ' ' in order to change the Dropdown symbol */
-li > a:after { content:  '' }
+li > a:after { content:  '▾' }
 li > a:only-child:after { content: ''; }
 
 
@@ -258,7 +263,7 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #254441;
+		background-color: #061310;;
 		padding:14px 20px;	
 		color:#FFF;
 		font-size:17px;
@@ -336,7 +341,6 @@ li > a:only-child:after { content: ''; }
 
 	}
 	
-	h1{font-size:1.7em }
 	
 
 }
@@ -349,3 +353,29 @@ li > a:only-child:after { content: ''; }
 	}
 
 }
+
+
+/*@media screen and (min-width: 590px) and (max-width: 704px){
+
+	#champ-wall-head{
+		padding-top: 37% !important; 
+	}
+}
+
+@media screen and (max-width : 589px){
+	#champ-wall-head{
+		padding-top: 50% !important  ;s
+	}
+}
+*/
+
+.jumbotron{
+	display: flex; 
+	justify-content: flex-start ; 
+	align-items: center; 
+}
+
+.champ-wall{
+	flex : 1 100% ; 
+}
+
