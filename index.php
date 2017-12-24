@@ -220,7 +220,7 @@ Ideate. Innovate. Build!";
                      <!-- /header-text -->  
                   </div>
                   <div class="item" id="toptw" style="color:white;background-image: url(carousel1.svg);
-    background-position: left center;
+    background-position: cleft center;
     background-attachment: fixed;
     background-size: cover;
     max-width: 100%;
@@ -289,11 +289,11 @@ Ideate. Innovate. Build!";
 	  <div class="container-fluid ">
 	  <div class='paget vision' style="text-align:center">
             <div id="vision" class=" right-stop left-stop " style="text-align:center">
-               <h2>
+               <h2 style="font-family :'Playfair Display', seriff; font-size: 42px;font-weight:bold" >
                   VISION
                </h2>
                <br>
-               <p style="text-align:justify">
+               <p style="text-align: justify">
                   Entrepreneurship is the set of wings that a country requires to soar higher.
                   And the Jadavpur University Entrepreneurship Cell aims at invoking a spirit of entrepreneurship
                   among the new generation, a stepping stone towards the better future of our Nation and her growing economy.
@@ -336,18 +336,49 @@ Ideate. Innovate. Build!";
          </div>
 
 	  </div>
-	  	<div class="container-fluid ">
-		         <div class="section" style="text-align: center" id="upcoming">
-            <h1 style="color: white ;font-family: 'Changa One', cursive;
-               "> UPCOMING EVENTS </h1>
-			</div>
-			<div class="upcominginfo" id="recents" style="color: white" >
-            <p>
-            <h2 style="color: white;font-family: 'Changa One', cursive;"> Hult Prize 2017 at JU</h2>
-            </p>
-            <p>
-            </p>
-			</div>
+	  	<div class="container-fluid upcoming-events">
+
+
+          <div class="upcoming-header">
+          <h1 style="color: white ; font-family: 'Archivo Black', sans-serif ">UPCOMING EVENTS</h1>
+          <p style="color:white;font-size:18px">An overview of the exciting events we have planned</p>
+          </div>
+          <div class="cards" >
+          
+                          
+                         <div class="card card-1">
+                            <div class="card-image">
+                            <img class="upcoming-card-1-img" src="https://i.imgur.com/Wmqxv19.png" alt=""></img>
+                            </div>
+
+                            <div class="card-body">
+                            <h2 style="text-align: center;color: black;font-family:'Playfair Display', seriff;font-weight: 500">Josh Talks</h2>
+                            <p style="color: #666 "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                            
+                            <p><strong style="color: black ; font-size : 16px">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
+                                  <p><strong style="color: black ; font-size : 16px" >When :</strong> January , 2018 </p>
+                                  <p style="text-align: center"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>
+                            </div>
+                         </div>
+          
+                  <div class="card">
+                            <div class="card-image">
+                            <img class="upcoming-card-1-img" src="https://i.imgur.com/fLGTOmN.png" alt=""></img>
+                            </div>
+                            
+                            <div class="card-body">
+                            <h2 style="text-align: center;color: black;font-family:'Playfair Display', serif;font-weight: 500">Falling Walls</h2>
+                            <p style="color: #666 "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                            
+                            <p><strong style="color: black ; font-size : 16px">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
+                                  <p><strong style="color: black ; font-size : 16px" >When :</strong> January , 2018 </p>
+                                  <p style="text-align: center"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>
+                            </div>
+                   </div>
+          
+          
+         </div>
+		
 		</div>
 
 
