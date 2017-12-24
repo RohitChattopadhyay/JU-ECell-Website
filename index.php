@@ -83,6 +83,7 @@ Ideate. Innovate. Build!";
 	  <link href="https://fonts.googleapis.com/css?family=Poppins|Roboto+Condensed" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 	  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
       <script src="js/modernizr.custom.js"></script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -161,7 +162,7 @@ Ideate. Innovate. Build!";
                
                <nav class="headd">
                   <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                  <ul class="nav-list" style="font-family: 'Lato', sans-serif;">
+                  <ul class="nav-list" style="font-family: 'Lato', sans-serif;>
                      <li>
                         <a href="#">Home</a>
                      </li>
@@ -198,10 +199,10 @@ Ideate. Innovate. Build!";
                         </ul>
                      </li>
                      <li>
-                        <a href="#ContactUs">Contact</a>
+                        <a href="#ContactUs" style="font-family: 'Lato', sans-serif;">Contact</a>
                      </li>
                      <li>
-                        <a href="https://juecell.in/alumni/" target="_black">For the Alumni</a>
+                        <a href="https://juecell.in/alumni/" target="_black" style="font-family: 'Lato', sans-serif;">For the Alumni</a>
                         
                      </li>
                   </ul>
@@ -268,11 +269,11 @@ Ideate. Innovate. Build!";
                <!-- Left and right controls -->
                <a class="left carousel-control slide_fade" href="#myCarousel" data-slide="prev" onmouseover="slide_on_hover(0,1)" onmouseout="slide_on_hover(0,0)">
                <span class="glyphicon glyphicon-chevron-left" id="slide_on_hover_0" style="display:none" ></span>
-               <span class="sr-only">Previous</span>
+               <span class="sr-only" style="font-family: 'Lato', sans-serif;">Previous</span>
                </a>
                <a class="right carousel-control slide_fade" href="#myCarousel" data-slide="next"  onmouseover="slide_on_hover(1,1)" onmouseout="slide_on_hover(1,0)">
                <span class="glyphicon glyphicon-chevron-right"  id="slide_on_hover_1" style="display:none"></span>
-               <span class="sr-only">Next</span>
+               <span class="sr-only" style="font-family: 'Lato', sans-serif;">Next</span>
                </a>
                <script>
                   function slide_on_hover(dir,fState){
@@ -293,7 +294,7 @@ Ideate. Innovate. Build!";
 	  <div class="container-fluid ">
 	  <div class='paget vision' style="text-align:center">
             <div id="vision" class=" right-stop left-stop " style="text-align:center">
-               <h2 style="font-family :'Playfair Display', seriff; font-size: 42px; font-family: 'Archivo Black', sans-serif" >
+               <h2 style="font-family :'Playfair Display', seriff; font-size: 42px;font-weight:bold" >
                   VISION
                </h2>
                <br>
@@ -315,7 +316,7 @@ Ideate. Innovate. Build!";
                   <h3 style="color: white ;font-family: 'Archivo Black', sans-serif">IDEATE</h3>
                </div>
                <div>
-                  <p style="text-align: center">Put on your Imagination Hats! </p>
+                  <p style="text-align: center ; font-family: 'Poppins', sans-serif;">Put on your Imagination Hats! </p>
                </div>
             </div>
             <div class='sectiont featuret-2'>
@@ -324,7 +325,7 @@ Ideate. Innovate. Build!";
                   <h3 style="color: white ;font-family: 'Archivo Black', sans-serif"> INNOVATE</h3>
                </div>
                <div>
-                  <p style="text-align: center">Explore hidden potentials!</p>
+                  <p style="text-align: center; font-family: 'Poppins', sans-serif;">Explore hidden potentials!</p>
                </div>
             </div>
             <div class='sectiont featuret-3'>
@@ -334,7 +335,7 @@ Ideate. Innovate. Build!";
                   <h3 style="color: white ;font-family: 'Archivo Black', sans-serif"> BUILD</h3>
                </div>
                <div>
-                  <p style="text-align: center">Pick up your Magic Wands!</p>
+                  <p style="text-align: center; font-family: 'Poppins', sans-serif;">Pick up your Magic Wands!</p>
                </div>
             </div>
          </div>
@@ -345,7 +346,7 @@ Ideate. Innovate. Build!";
 
           <div class="upcoming-header">
           <h1 style="color: white ; font-family: 'Archivo Black', sans-serif ">UPCOMING EVENTS</h1>
-          <p style="color:white;font-size:18px ; font-family: 'Poppins', sans-serif;">An overview of the exciting events we have planned</p>
+          <p style="color:white;font-size:18px; font-family: 'Poppins', sans-serif;">An overview of the exciting events we have planned</p>
           </div>
           <div class="cards" >
           
@@ -357,11 +358,11 @@ Ideate. Innovate. Build!";
 
                             <div class="card-body">
                             <h2 style="text-align: center;color: black;font-family: 'Roboto Condensed', sans-serif;font-weight: 500">Josh Talks</h2>
-                            <p style="color: #666; font-family: 'Poppins', sans-serif; "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                            <p style="color: #666 ;font-family: 'Poppins', sans-serif;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
                             
-                            <p><strong style="color: black ; font-size : 16px ;font-family: 'Poppins', sans-serif;">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
-                                  <p><strong style="color: black ; font-size : 16px; font-family: 'Poppins', sans-serif;" >When :</strong> January , 2018 </p>
-                                  <p style="text-align: center; font-family: 'Poppins', sans-serif;"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>
+                            <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
+                                  <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;" >When :</strong> January , 2018 </p>
+                                  <p style="text-align: center ; font-family: 'Poppins', sans-serif;"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>
                             </div>
                          </div>
           
@@ -372,7 +373,7 @@ Ideate. Innovate. Build!";
                             
                             <div class="card-body">
                             <h2 style="text-align: center;color: black;font-family: 'Roboto Condensed', sans-serif;font-weight: 500">Falling Walls</h2>
-                            <p style="color: #666;font-family: 'Poppins', sans-serif; "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                            <p style="color: #666 ; font-family: 'Poppins', sans-serif; "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
                             
                             <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
                                   <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;" >When :</strong> January , 2018 </p>
@@ -522,10 +523,10 @@ Ideate. Innovate. Build!";
 		         <div class='application-container' id="daaamn">
             <div class='application'>
                <div id='about' class="col-md-8">
-                  <h1 style=" font-size:38px; text-shadow: 0 1px 0 #ccc;
-                     color: white ; font-family: 'Archivo Black', sans-serif
+                  <h1 style=" font-size:38px; 
+                      ; color: white ; font-family: 'Archivo Black', sans-serif
                      " >ABOUT US</h1>
-                  <p  style="text-align:justify ;font-family: 'Poppins', sans-serif;">
+                  <p  style="text-align:justify ; font-family: 'Poppins', sans-serif;">
                      Are you a Start-up Enthusiast with a plan in hand, looking for the missing piece in your start-up puzzle?
                      Are you a Venture Capitalist or Angel Investor, hunting to find the best place to invest ?
                      Or, Are you just a Student with a passionate heart and curious mind, exploring all what college-life has to offer?
@@ -539,8 +540,8 @@ Ideate. Innovate. Build!";
                   <h1  style="font-family: 'Archivo Black', sans-serif
                      ">Join Us</h1>
                   <div class="application-buttons">
-                     <button style="font-family: 'Bitter', serif;"type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Coordinator-Modal">As Coordinator</button>
-                     <button  style="font-family: 'Bitter', serif;"type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Ambassador-Modal">As Campuss Ambassador</button>
+                     <button style="font-family: 'Bitter', serif;" type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Coordinator-Modal">As Coordinator</button>
+                     <button  style="font-family: 'Bitter', serif;" type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Ambassador-Modal">As Campuss Ambassador</button>
                   </div>
                </div>
             </div>
@@ -829,7 +830,7 @@ Ideate. Innovate. Build!";
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
-                                        <p style="padding-left:30px ; font-family: 'Poppins', sans-serif;">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
+                                        <p style="padding-left:30px ; padding-left:30px ; font-family: 'Poppins', sans-serif;">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
 										<small><b>Sauvik Banerjee</b><br>VP ,Tata CLiQ</small>
                                     </div>
                                 </div>
@@ -840,7 +841,7 @@ Ideate. Innovate. Build!";
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
-                                        <p style="padding-left:30px; font-family: 'Poppins', sans-serif;">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
+                                        <p style="padding-left:30px ; padding-left:30px ; font-family: 'Poppins', sans-serif;">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
                                         <small><b>Prof. Surjayan Sen</b><br>VC, Jadavpur University</small>
                                     </div>
                                 </div>
@@ -851,7 +852,7 @@ Ideate. Innovate. Build!";
                             <blockquote>
                                 <div class="row">
                                     <div class="col-sm-10 col-sm-offset-1">
-                                        <p style="padding-left:30px; font-family: 'Poppins', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                        <p style="padding-left:30px ; padding-left:30px ; font-family: 'Poppins', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
                                         <small>Someone famous</small>
                                     </div>
                                 </div>
@@ -970,7 +971,7 @@ Ideate. Innovate. Build!";
             </span>
             <br>
             <br>
-            <span class="footer-links " style="font-family: 'Lato', sans-serif;">
+            <span class="footer-links" style="font-family: 'Lato', sans-serif;">
             <a href="#">Hult Prize</a><br><br>
             <a href="#">E-weekend</a><br><br>
             <a href="#">Startup Weekend</a><br><br>
@@ -995,8 +996,8 @@ Ideate. Innovate. Build!";
       </div>
       </div>
       <div class="col-xs-12" style="background-color:grey; text-align:center">
-         <div style="font-family: 'Lato', sans-serif;">©2017 Jadavpur University Entrepreneurship Cell</div>
-         <div style="font-family: 'Lato', sans-serif;">Crafted by &#128009;</div>
+         <div>©2017 Jadavpur University Entrepreneurship Cell</div>
+         <div>Crafted by &#128009;</div>
       </div>
       <style>
          .footer-social {
@@ -1038,11 +1039,11 @@ Ideate. Innovate. Build!";
                <!-- Modal content-->
                <div  class="modal-content">
                   <div class="modal-header">
-                     <h3 class="modal-title">Coordinator Application Form</h3>
+                     <h3 class="modal-title ; font-family: 'Archivo Narrow', sans-serif;">Coordinator Application Form</h3>
                      <button style="background: 00; border: 0; font-size: 21px;" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
-                     <form action="#about" method="post" id="coordinator-form" name="coordinator-form" style="display:inline">
+                     <form action="#about" method="post" id="coordinator-form" name="coordinator-form" style="display:inline; font-family: 'Archivo Narrow', sans-serif;">
                         Only for JU Students
                         <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name*"  required >
                         <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email*"  required>
@@ -1119,11 +1120,11 @@ Ideate. Innovate. Build!";
                <!-- Modal content-->
                <div  class="modal-content">
                   <div class="modal-header">
-                     <h3 class="modal-title">Apply as a Campus Ambassador</h3>
+                     <h3 class="modal-title ; font-family: 'Archivo Narrow', sans-serif;">Apply as a Campus Ambassador</h3>
                      <button style="background: 00; border: 0; font-size: 21px;" data-dismiss="modal">&times;</button>
                   </div>
                   <div class="modal-body">
-                     <form  action="#about" method="post" id="ambassador-form" style="display:inline">
+                     <form  action="#about" method="post" id="ambassador-form" style="display:inline ; font-family: 'Archivo Narrow', sans-serif;">
                         Be a part of the extended family
                         <input type="text" id="ambassador-form-name" name="ambassador-form-name" placeholder="Name*" required>
                         <input type="text" id="ambassador-form-email" name="ambassador-form-email" placeholder="Email*" required>
@@ -1134,7 +1135,7 @@ Ideate. Innovate. Build!";
                         <br>
                         <input type="submit" value="Apply" name="ambassador-form-submit">
                      </form>
-                     <span id="ambassador-form-ty" style="display:none">Thank You for subscribing.</span>
+                     <span id="ambassador-form-ty" style="display:none ; font-family: 'Archivo Narrow', sans-serif;">Thank You for subscribing.</span>
                   </div>
                </div>
             </div>
