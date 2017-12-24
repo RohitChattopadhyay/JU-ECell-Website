@@ -378,4 +378,17 @@ li > a:only-child:after { content: ''; }
 .champ-wall{
 	flex : 1 100% ; 
 }
+.footer-links a{
+	color:white ; 
+}
+.footer-links a:hover{
+	color: grey ; 
+}
+#footer{
+	margin-top:20px;
+  color: white;
+  background-color: #1f2930; }
 
+  a{
+	  text-decoration: none !important; 
+  }
