@@ -89,6 +89,47 @@ body {
     text-align: center;
     color: #222;
 }
+.desk p{
+font-size:16px}
+	
+
+	
+    @media (max-width: 1200px) and (min-width:901px) { 
+  
+	.desk p{
+		font-size:14px;
+	}
+	.team-member p{
+		font-size:17px;
+	}
+  }
+    @media (max-width: 900px) and (min-width:601px) { 
+	.desk p{
+		font-size:13px;
+	}
+	.team-member p{
+		font-size:16px;
+	}
+
+  }
+    @media (max-width: 600px) and (min-width:401px)  { 
+   
+	.desk p{
+		font-size:12px;
+	}
+	.team-member p{
+		font-size:14px;
+	}
+  }
+    @media (max-width: 400px) {
+      
+.desk p{
+	font-size:9px;
+}
+.team-member p{
+		font-size:14px;
+	}
+  }
 .team-member:hover .team-hover .s-link {
     bottom: 10%;
 }
@@ -191,6 +232,8 @@ h1 {
 
 p {
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	
 }
 
 .toggle,
@@ -341,6 +384,7 @@ li > a:only-child:after { content: ''; }
 	/* Display Dropdown when clicked on Parent Lable */
 	[id^=drop]:checked + ul {
 		display: block;
+		width: 100% ; 
 	}
 
 	/* Change menu item's width to 100% */
@@ -449,7 +493,12 @@ body{
 
 .event-header {
 	padding-bottom:20px !important;
+	font-family: 'Oswald', sans-serif;
 }
 .event-year {
 	padding-top:20px !important;
+}
+
+h1{
+	font-family: "Fjalla One", sans-serif;
 }
