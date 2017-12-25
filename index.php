@@ -357,10 +357,10 @@ Ideate. Innovate. Build!";
                             </div>
 
                             <div class="card-body">
-                            <h2 style="text-align: center;color: black;font-family: 'Roboto Condensed', sans-serif;font-weight: 500">Josh Talks</h2>
+                            <h2 style="text-align: center;color: black;font-family: 'Playfair Display', serif;font-weight: 500">Josh Talks</h2>
                             <p style="color: #666 ;font-family: 'Poppins', sans-serif;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
                             
-                            <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
+                            <p><strong style="color: black ; font-size : 16px ;"Helvetica Neue",Helvetica,Arial,sans-serif">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
                                   <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;" >When :</strong> January , 2018 </p>
                                   <p style="text-align: center ; font-family: 'Poppins', sans-serif;"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>
                             </div>
@@ -372,8 +372,8 @@ Ideate. Innovate. Build!";
                             </div>
                             
                             <div class="card-body">
-                            <h2 style="text-align: center;color: black;font-family: 'Roboto Condensed', sans-serif;font-weight: 500">Falling Walls</h2>
-                            <p style="color: #666 ; font-family: 'Poppins', sans-serif; "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                            <h2 style="text-align: center;color: black;font-family:'Playfair Display', serif;font-weight: 500">Falling Walls</h2>
+                            <p style="color: #666 ; font-family:"Helvetica Neue",Helvetica,Arial,sans-serif"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
                             
                             <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
                                   <p><strong style="color: black ; font-size : 16px ; font-family: 'Poppins', sans-serif;" >When :</strong> January , 2018 </p>
