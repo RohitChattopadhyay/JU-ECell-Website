@@ -356,7 +356,7 @@ Ideate. Innovate. Build!";
                             </div>
 
                             <div class="card-body">
-                            <h2 style="text-align: center;color: black;font-family:'Playfair Display', seriff;font-weight: 500">Josh Talks</h2>
+                            <h2 style="text-align: center;color: black;font-family:'Roboto', seriff;font-weight: 500">Josh Talks</h2>
                             <p style="color: #666 "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
                             
                             <p><strong style="color: black ; font-size : 16px">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
@@ -371,7 +371,7 @@ Ideate. Innovate. Build!";
                             </div>
                             
                             <div class="card-body">
-                            <h2 style="text-align: center;color: black;font-family:'Playfair Display', serif;font-weight: 500">Falling Walls</h2>
+                            <h2 style="text-align: center;color: black;font-family:"DINWebPro", Helvetica, Arial, sans-serif;font-weight: 500">Falling Walls</h2>
                             <p style="color: #666 "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
                             
                             <p><strong style="color: black ; font-size : 16px">Where </strong>:  Jadavpur University Gandhi Bhavan </p>
