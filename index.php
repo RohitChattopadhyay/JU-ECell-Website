@@ -219,7 +219,7 @@ Ideate. Innovate. Build!";
                      </div>
                      <!-- /header-text -->  
                   </div>
-                  <div class="item" id="toptw" style="color:white;background-image: url('assets/images/bread1.jpg');
+                  <div class="item" id="toptw" style="color:white;background-image: url('https://i.imgur.com/Gnor7dP.png');
     background-position: cleft center;
     background-attachment: fixed;
     background-size: cover;
@@ -245,7 +245,7 @@ Ideate. Innovate. Build!";
                      <!-- /header-text -->
                   </div>
                   <div class="item active" id="topone" style="color:white">
-                     <img src="assets/images/bread2.jpg"  style="width:100%;">
+                     <img src="carousel1.svg"  style="width:100%;">
                      <div class="header-text " style="color:white">
                         <div class="col-md-12 text-left" style="color:white ; width: 100% ; text-align: left">
                              <h2 style="font-size: 56px ; font-weight: bold;font-family: 'Archivo Black', sans-serif
