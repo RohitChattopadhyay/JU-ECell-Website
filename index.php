@@ -552,19 +552,19 @@ Ideate. Innovate. Build!";
          </div>
          <div class="countersz" style="color: white;font-family:'Playfair Display' , serif">
             <div>
-               <span id= "counter" class="counter-value" data-count="500" style="font-size: 35px;font-family:'Playfair Display' , serif">0</span><span style="font:size:30px"> &nbsp +</span>
+               <span id= "counter" class="counter-value" data-count="500" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px"> &nbsp +</span>
                <h3>Members</h3>
             </div>
             <div>
-               <span id="counter"  class="counter-value" data-count="50" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font:size:30px"> &nbsp +</span>
+               <span id="counter"  class="counter-value" data-count="50" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px"> &nbsp +</span>
                <h3>Coordinators</h3>
             </div>
             <div>
-               <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font:size:30px"> &nbsp +</span>
+               <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px"> &nbsp +</span>
                <h3>Campus<br> Ambassadors</h3>
             </div>
             <div>
-               <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font:size:30px"> &nbsp +</span>
+               <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px"> &nbsp +</span>
                <h3>Events</h3>
             </div>
          </div>
