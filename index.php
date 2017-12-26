@@ -552,7 +552,7 @@ Ideate. Innovate. Build!";
          </div>
          <div class="countersz" style="color: white;font-family:'Playfair Display' , serif">
             <div>
-               <span id= "counter" class="counter-value" data-count="500" style="font-size: 35px;font-family:'Playfair Display' , serif">0</span>
+               <span id= "counter" class="counter-value" data-count="500" style="font-size: 35px;font-family:'Playfair Display' , serif">0+</span>
                <h3>Members</h3>
             </div>
             <div>
