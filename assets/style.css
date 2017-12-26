@@ -21,7 +21,7 @@ body{
   height: 100%;
   /*background-image: url('https://startupconclave.com/wp-content/uploads/2016/09/Startup-Conclave-2016-Background.jpg?id=433') !important ; 
   */
-  background-color: #0188cc ; 
+  background-color: #b4b9bb ; 
   background-attachment: fixed;
   background-size: cover ;
 }
@@ -54,7 +54,7 @@ body{
 .card{
   height: auto; 
   margin-bottom: 10% ;
-  flex: 0 1 37% ;
+  flex: 0 1 30% ;
   box-shadow: 0px 5px 20px #4B4848 ; 
   background-color: #F7F2F2 ; 
   padding: 0  !important; 
@@ -259,7 +259,7 @@ body{
 
 
 .paget{
-  background-color: #2c3e50 !important;
+  background-color: #100F0F !important;
 }
 .vision{
   display: flex;
@@ -790,7 +790,7 @@ p{
   display: flex;
   width: 100%;
   justify-content: center;    /* Add this */
-  background-color: #2c3e50;
+  background-color: #232121;
   color: white;
   flex-wrap: wrap;
   padding-left:10%;
@@ -804,7 +804,7 @@ p{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #2c3e50;
+  
   
 }
 .application-buttons button[type="button"]{
@@ -1140,8 +1140,9 @@ a{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-image: url('https://cdn.dribbble.com/users/43762/screenshots/1193020/line-graph-dribbbble.gif');
+    background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/itCjTBE/dark-blue-tech-gear-graphic-motion-background-video-animation-hd-1920x1080_4_yl1wbrl__F0000.png');
     height: 40% ; 
+    background-attachment: fixed ;
     
   }
 
@@ -1152,8 +1153,6 @@ a{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-image: url('http://juecell.in/images/graph2.gif');
-    background-size: 100% 100%;
     width: 100%;
     height: 100% ;
   }
@@ -1186,8 +1185,8 @@ a{
     justify-content: center;
     align-items: center;
     justify-content: space-around; 
-    background-color: #1f2930;
-    color: white;
+    background-color: #4C5D69;
+    color: black;
     font-family: 'Changa One', cursive;
     }
 
@@ -1354,7 +1353,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #181A1C;
+    background-color: #100F0F;
   }
   
   .sectiont {
@@ -1370,16 +1369,7 @@ a{
     margin-bottom: 20px;
   }
   
-  
-  .featuret-1 {
-    background-color: #181A1C;
-  }
-  
-  .featuret-2 {
-    background-color: #181A1C;  }
-  
-  .featuret-3 {
-    background-color: #181A1C;  }
+
 
 
   @media only screen and (min-width: 401px) and (max-width: 960px) {
@@ -1699,7 +1689,7 @@ height: 100%;
   /* ----------------------headd.css Starts----------------------------- */
 .navigation {
     height: 70px;
-    background: #262626;
+    background: #000000;
   }
   
   
@@ -1738,7 +1728,7 @@ height: 100%;
     display: block;
     padding: 0 20px;
     line-height: 70px;
-    background: #262626;
+    background: #000000;
     color: #ffffff;
     text-decoration: none;
   }
@@ -1773,7 +1763,7 @@ height: 100%;
     position: absolute;
     top: 0;
     right: 0;
-    background: #262626;
+    background: #0A0A0A;
     height: 70px;
     width: 70px;
   }
