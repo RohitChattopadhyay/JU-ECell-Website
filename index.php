@@ -543,7 +543,7 @@ Ideate. Innovate. Build!";
                      ;color:#B69BFA;font-weight: bold;font-size:38px">Join Us</h1>
                   <div class="application-buttons">
                      <button type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Coordinator-Modal">As Coordinator</button>
-                     <button  type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Ambassador-Modal">As Campuss Ambassador</button>
+                     <button  type="button" class="btn btn-info btn-lg hvr-float-shadow" data-toggle="modal" data-target="#Ambassador-Modal">As Campus Ambassador</button>
                   </div>
                </div>
             </div>
@@ -565,7 +565,7 @@ Ideate. Innovate. Build!";
             </div>
             <div>
                <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value" >+</span>
-               <h3>Campus<br> Ambassadors</h3>
+               <h3>Campus<br>Ambassadors</h3>
             </div>
             <div>
                <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value" >+</span>
