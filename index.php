@@ -981,35 +981,7 @@ echo $_SESSION['message'];
                                         <option value="Library &amp; Information Science">Library &amp; Information Science</option>
                                         <option value="Philosophy">Philosophy</option>
                                         <option value="Physical Education">Physiring">Production Engineering</option>
-                                    </optgroup>
-                                    <optgroup label="Arts">
-                                        <option value="Bengali">Bengali</option>
-                                        <option value="Comparative Literature">Comparative Literature</option>
-                                        <option value="Economics">Economics</option>
-                                        <option value="Education">Education</option>
-                                        <option value="English">English</option>
-                                        <option value="Film Studies">Film Studies</option>
-                                        <option value="History">History</option>
-                                        <option value="International Relations">International Relations</option>
-                                        <option value="Library &amp; Information Science">Library &amp; Information Science</option>
-                                        <option value="Philosophy">Philosophy</option>
-                                        <option value="Physical Education">Physiring">Production Engineering</option>
-                                    </optgroup>
-                                    <optgroup label="Arts">
-                                        <option value="Bengali">Bengali</option>
-                                        <option value="Comparative Literature">Comparative Literature</option>
-                                        <option value="Economics">Economics</option>
-                                        <option value="Education">Education</option>
-                                        <option value="English">English</option>
-                                        <option value="Film Studies">Film Studies</option>
-                                        <option value="History">History</option>
-                                        <option value="International Relations">International Relations</option>
-                                        <option value="Library &amp; Information Science">Library &amp; Information Science</option>
-                                        <option value="Philosophy">Philosophy</option>
-                                        <option value="Physical Education">Physical Education</option>
-                                        <option value="Sanskrit">Sanskrit</option>
-                                        <option value="Sociology">Sociology</option>
-                                    </optgroup>
+                             </optgroup>
                                     <optgroup label="Science">
                                         <option value="Chemistry">Chemistry</option>
                                         <option value="Geography">Geography</option>
