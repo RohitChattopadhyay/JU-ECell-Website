@@ -244,7 +244,7 @@ echo $_SESSION['message'];
                             <!-- /header-text -->
                         </div>
                         <div class="item active" id="topone" style="color:white">
-                            <img src="carousel1.svg" style="width:100%;">
+                            <img src="assets/img/carousel/1.svg" style="width:100%;">
                             <div class="header-text " style="color:white">
                                 <div class="col-md-12 text-left" style="color:white ; width: 100% ; text-align: left">
                                     <h2 style="font-size: 56px ; font-weight: bold;font-family: 'Archivo Black', sans-serif
@@ -1055,11 +1055,11 @@ echo $_SESSION['message'];
         <script src="assets/js/modalEffects.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/GMap.js"></script>
         <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRiDrm36Kcz2OWvZgnwFAB1-Lk9SIQOlY&callback=initMap"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="assets/js/home.js"></script>
-        <script type="text/javascript" src="assets/js/GMap.js"></script>
         <script type="text/javascript" src="assets/js/scroll2top.js"></script>
 
         <?php
