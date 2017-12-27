@@ -92,6 +92,11 @@ Ideate. Innovate. Build!";
          max-width: 100%;	
          overflow-x: hidden;
          }
+          
+        #plus-for-numbers{
+            display: none;
+        }
+
 
 	.container-fluid {
 			 padding-left:0 !important;
@@ -551,19 +556,19 @@ Ideate. Innovate. Build!";
          </div>
          <div class="countersz" style="color: white;font-family:'Playfair Display' , serif">
             <div>
-               <span id= "counter" class="counter-value" data-count="500" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers" class="plus-for-numbers counter-value" >+</span>
+               <span id= "counter" class="counter-value" data-count="500" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value" >+</span>
                <h3>Members</h3>
             </div>
             <div>
-               <span id="counter"  class="counter-value" data-count="50" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers"  class="plus-for-numbers counter-value" >+</span>
+               <span id="counter"  class="counter-value" data-count="50" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value" >+</span>
                <h3>Coordinators</h3>
             </div>
             <div>
-               <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers"  class="plus-for-numbers counter-value" >+</span>
+               <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value" >+</span>
                <h3>Campus<br> Ambassadors</h3>
             </div>
             <div>
-               <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers"  class="plus-for-numbers counter-value" >+</span>
+               <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value" >+</span>
                <h3>Events</h3>
             </div>
          </div>
@@ -1236,11 +1241,6 @@ Ideate. Innovate. Build!";
            
       </script>
 
-<style>
-    #plus-for-numbers{
-        display: none;
-    }
-</style>
 
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
