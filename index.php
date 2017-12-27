@@ -949,7 +949,27 @@ echo $_SESSION['message'];
                                 Only for JU Students
                                 <input type="text" id="coordinator-form-name" name="coordinator-form-name" placeholder="Name*" required>
                                 <input type="email" id="coordinator-form-email" name="coordinator-form-email" placeholder="Email*" required>
-                                <sp label="Arts">
+                                <select class="form-control" id="coordinator-form-department" name="coordinator-form-department" placeholder="Department" >
+                            <option value="" selected disabled hidden>Department</option>
+                            <optgroup label="Engineering &amp; Technology">
+                               <option value="Architecture">Architecture</option>
+                               <option value="Chemical Engineering">Chemical Engineering</option>
+                               <option value="Civil Engineering">Civil Engineering</option>
+                               <option value="Computer Science &amp; Engineering">Computer Science &amp; Engineering</option>
+                               <option value="Construction Engineering">Construction Engineering</option>
+                               <option value="Electrical Engineering">Electrical Engineering</option>
+                               <option value="Electronics &amp; Telecommunication Engineering">Electronics &amp; Telecommunication Engineering</option>
+                               <option value="Food Technology &amp; Bio-Chemical Engineering">Food Technology &amp; Bio-Chemical Engineering</option>
+                               <option value="Information Technology">Information Technology</option>
+                               <option value="Instrumentation &amp; Electronics Engineering">Instrumentation &amp; Electronics Engineering</option>
+                               <option value="Mechanical Engineering">Mechanical Engineering</option>
+                               <option value="Metallurgical &amp; Material Engineering">Metallurgical &amp; Material Engineering</option>
+                               <option value="Pharmaceutical Technology">Pharmaceutical Technology</option>
+                               <option value="Power Engineering">Power Engineering</option>
+                               <option value="Printing Engineering">Printing Engineering</option>
+                               <option value="Production Engineering">Production Engineering</option>
+                            </optgroup>
+                            <optgroup label="Arts">
                                         <option value="Bengali">Bengali</option>
                                         <option value="Comparative Literature">Comparative Literature</option>
                                         <option value="Economics">Economics</option>
