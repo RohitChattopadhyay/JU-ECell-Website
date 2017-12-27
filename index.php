@@ -232,7 +232,6 @@ Ideate. Innovate. Build!";
 ">
                         JADAVPUR UNIVERSITY
                      </h2>
-                   
                      <h3>
                          Entrepreneurship Cell
                      </h3>
@@ -552,19 +551,19 @@ Ideate. Innovate. Build!";
          </div>
          <div class="countersz" style="color: white;font-family:'Playfair Display' , serif">
             <div>
-               <span id= "counter" class="counter-value" data-count="500" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px">+</span>
+               <span id= "counter" class="counter-value" data-count="500" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers" class="plus-for-numbers counter-value" >+</span>
                <h3>Members</h3>
             </div>
             <div>
-               <span id="counter"  class="counter-value" data-count="50" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px">+</span>
+               <span id="counter"  class="counter-value" data-count="50" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers"  class="plus-for-numbers counter-value" >+</span>
                <h3>Coordinators</h3>
             </div>
             <div>
-               <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px">+</span>
+               <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers"  class="plus-for-numbers counter-value" >+</span>
                <h3>Campus<br> Ambassadors</h3>
             </div>
             <div>
-               <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px">+</span>
+               <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" id="plus-for-numbers"  class="plus-for-numbers counter-value" >+</span>
                <h3>Events</h3>
             </div>
          </div>
@@ -1229,12 +1228,20 @@ Ideate. Innovate. Build!";
                  });
              });
              a = 1;
+               $( ".plus-for-numbers" ).delay(1700).fadeIn( 1000 );
            }
          
          });
          });
            
       </script>
+
+<style>
+    #plus-for-numbers{
+        display: none;
+    }
+</style>
+
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
       <script async defer
@@ -1358,24 +1365,6 @@ Ideate. Innovate. Build!";
              });
            }); // end DOM ready
          }); // end jQuery
-      </script>
-      <script>
-         // 0-> Contact
-         // 1-> Coordinator
-         // 2-> Subscribe
-         
-         	function show(num){
-         		if(num==0){	document.getElementById("contact-form-ty").style.display = "inline";}
-         		if(num==1){	document.getElementById("coordinator-form-ty").style.display = "inline";}
-         		if(num==2){	document.getElementById("member-form-ty").style.display = "inline";}
-         	}
-         
-         	
-         	function hide(num){
-         		if(num==0){	document.getElementById("contact-form-body").style.display = "none";}
-         		if(num==1){	document.getElementById("coordinator-form").style.display = "none";}
-         		if(num==2){	document.getElementById("member-form").style.display = "none";}		
-         	}
       </script>
       <script>
          window.onload=setTimeout(MadeByTheDRAgon, 10000);
