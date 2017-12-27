@@ -93,7 +93,7 @@ Ideate. Innovate. Build!";
          overflow-x: hidden;
          }
           
-        #plus-for-numbers{
+        .plus-for-numbers{
             display: none;
         }
 
