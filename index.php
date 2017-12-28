@@ -224,7 +224,7 @@ echo $_SESSION['message'];
                             </div>
                             <!-- /header-text -->
                         </div>
-                        <div class="item" id="toptw" style="color:white;background-image: url('https://i.imgur.com/Gnor7dP.png');
+                        <div class="item" id="toptw" style="color:white;background-image: url('https://i.imgur.com/sm8Xidy.png');
     background-position: cleft center;
     background-attachment: fixed;
     background-size: cover;
