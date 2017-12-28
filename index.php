@@ -80,6 +80,11 @@ if (isset($_POST['contact-form-submit'])) {
             <link rel="stylesheet" type="text/css" href="assets/css/homestyle.css?noached">
             <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Bowlby+One+SC|Changa+One|Neuton|Titan+One|Archivo+Black|Scada|Changa+One|Anton" rel="stylesheet">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
             <script src="assets/js/modernizr.custom.js"></script>
             <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -157,12 +162,12 @@ echo $_SESSION['message'];
 
                         <nav class="headd">
                             <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
-                            <ul class="nav-list">
+                            <ul class="nav-list" style="font-family: 'Asap', sans-serif;">
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="#" >Home</a>
                                 </li>
                                 <li>
-                                    <a href="#about">About</a>
+                                    <a href="#about" >About</a>
                                 </li>
                                 <li>
                                     <a href="#pasts">Initiatives</a>
@@ -294,7 +299,7 @@ echo $_SESSION['message'];
                   VISION
                </h2>
                     <br>
-                    <p style="text-align: justify;font-size: 15px">
+                    <p style="text-align: justify;font-size: 15px ; font-family: 'Raleway', sans-serif;">
                         Entrepreneurship is the set of wings that a country requires to soar higher. And the Jadavpur University Entrepreneurship Cell aims at invoking a spirit of entrepreneurship among the new generation, a stepping stone towards the better future of our Nation and her growing economy. We believe in providing a platform to guide these creative minds through effective interaction between the student body and esteemed members of the corporate world, successful entrepreneurs, investors, venture capitalists, thus helping their ideas transform into entrepreneurial ventures. We aim to help dreams take off, here at Jadavpur University!
                     </p>
                 </div>
@@ -306,7 +311,7 @@ echo $_SESSION['message'];
                         <h3 style="color: #B69BFA ;font-family: 'Playfair Display' , serif;font-weight:bold">IDEATE</h3>
                     </div>
                     <div>
-                        <p style="text-align: center">Put on your Imagination Hats! </p>
+                        <p style="text-align: center ; font-family: 'Raleway', sans-serif;">Put on your Imagination Hats! </p>
                     </div>
                 </div>
                 <div class='sectiont featuret-2'>
@@ -315,7 +320,7 @@ echo $_SESSION['message'];
                         <h3 style="color: #B69BFA ;font-family: 'Playfair Display' , serif;font-weight:bold"> INNOVATE</h3>
                     </div>
                     <div>
-                        <p style="text-align: center">Explore hidden potentials!</p>
+                        <p style="text-align: center ; font-family: 'Raleway', sans-serif;">Explore hidden potentials!</p>
                     </div>
                 </div>
                 <div class='sectiont featuret-3'>
@@ -346,7 +351,7 @@ echo $_SESSION['message'];
 
                     <div class="card-body">
                         <h2 style="text-align: center;color: black;font-family:'Roboto', seriff;font-weight: 500">Josh Talks</h2>
-                        <p style="color: #666 "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                        <p style="color: #666 ; font-family: 'Raleway', sans-serif;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
 
                         <p><strong style="color: black ; font-size : 16px">Where </strong>: Jadavpur University Gandhi Bhavan </p>
                         <p><strong style="color: black ; font-size : 16px">When :</strong> January , 2018 </p>
@@ -361,7 +366,7 @@ echo $_SESSION['message'];
 
                     <div class="card-body">
                         <h2 style="text-align: center;color: black;font-family:" DINWebPro ", Helvetica, Arial, sans-serif;font-weight: 500">Falling Walls</h2>
-                        <p style="color: #666 "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
+                        <p style="color: #666 ; font-family: 'Raleway', sans-serif; "> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam voluptatibus autem consectetur voluptate facere at, omnis ab optio placeat officiis! Animi modi harum enim quia veniam consectetur unde autem inventore.</p>
 
                         <p><strong style="color: black ; font-size : 16px">Where </strong>: Jadavpur University Gandhi Bhavan </p>
                         <p><strong style="color: black ; font-size : 16px">When :</strong> January , 2018 </p>
@@ -509,7 +514,7 @@ echo $_SESSION['message'];
                     <div id='about' class="col-md-8">
                         <h1 style="font-family: 'Playfair Display' , serif
                   ;color:#B69BFA;font-weight: bold;font-size:38px">ABOUT US</h1>
-                        <p style="text-align:justify;font-size: 15px">
+                        <p style="text-align:justify;font-size: 15px ; font-family: 'Raleway', sans-serif;">
                             Are you a Start-up Enthusiast with a plan in hand, looking for the missing piece in your start-up puzzle? Are you a Venture Capitalist or Angel Investor, hunting to find the best place to invest ? Or, Are you just a Student with a passionate heart and curious mind, exploring all what college-life has to offer? Well, you have come to the right place! Jadavpur University Entrepreneurship-Cell is an organisation that aims to actively infuse the spirit of entrepreneurship among students by creating just the perfect environment that is start-up friendly. Right from sowing the seed of Entrepreneurship in aspiring hearts, to watering them with workshops and training and then providing them with the manures of Mentoring, the exuberant team of student coordinators at Jadavpur University E-Cell strive hard to make your Start-up journey smooth, enriching and euphoric! Helping dreams take off at Jadavpur University, The Entrepreneurship Cell.
                         </p>
                     </div>
@@ -531,19 +536,19 @@ echo $_SESSION['message'];
                 </div>
                 <div class="countersz" style="color: white;font-family:'Playfair Display' , serif">
                     <div>
-                        <span id="counter" class="counter-value" data-count="500" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
+                        <span id="counter" class="counter-value" data-count="500" style="font-size: 45px; font-family: 'Raleway', sans-serif;">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
                         <h3>Members</h3>
                     </div>
                     <div>
-                        <span id="counter" class="counter-value" data-count="50" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
+                        <span id="counter" class="counter-value" data-count="50" style="font-size: 45px;font-family: 'Raleway', sans-serif;">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
                         <h3>Coordinators</h3>
                     </div>
                     <div>
-                        <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
+                        <span id="counter" class="counter-value" data-count="75" style="font-size: 45px;font-family: 'Raleway', sans-serif;">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
                         <h3>Campus<br>Ambassadors</h3>
                     </div>
                     <div>
-                        <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family:'Playfair Display' , serif">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
+                        <span id="counter" class="counter-value" data-count="5" style="font-size: 45px;font-family: 'Raleway', sans-serif;">0</span><span style="font-size:40px" class="plus-for-numbers counter-value">+</span>
                         <h3>Events</h3>
                     </div>
                 </div>
@@ -810,7 +815,7 @@ echo $_SESSION['message'];
                                     <blockquote>
                                         <div class="row">
                                             <div class="col-sm-10 col-sm-offset-1">
-                                                <p style="padding-left:30px">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
+                                                <p style="padding-left:30px ; font-family: 'Alegreya Sans', sans-serif; font-size:21px;">Just go out there and do whatever you enjoy without thinking where/how you might end up. You will see you have achieved and learnt a lot even if you fail. Only remember, hard work and taking risk are never going to go out of fashion in any era. Just add this to your repertoire and you will flourish.</p>
                                                 <small><b>Sauvik Banerjee</b><br>VP ,Tata CLiQ</small>
                                             </div>
                                         </div>
@@ -821,7 +826,7 @@ echo $_SESSION['message'];
                                     <blockquote>
                                         <div class="row">
                                             <div class="col-sm-10 col-sm-offset-1">
-                                                <p style="padding-left:30px">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
+                                                <p style="padding-left:30px ; font-family: 'Alegreya Sans', sans-serif; font-size:21px">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
                                                 <small><b>Prof. Surjayan Sen</b><br>VC, Jadavpur University</small>
                                             </div>
                                         </div>
@@ -832,7 +837,7 @@ echo $_SESSION['message'];
                                     <blockquote>
                                         <div class="row">
                                             <div class="col-sm-10 col-sm-offset-1">
-                                                <p style="padding-left:30px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                                <p style="padding-left:30px ; font-family: 'Alegreya Sans', sans-serif; font-size:21px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
                                                 <small>Someone famous</small>
                                             </div>
                                         </div>
@@ -863,14 +868,14 @@ echo $_SESSION['message'];
                         <span><img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png"  style="margin-top:20px;height:70px"></span>
                         <hr>
                         <div id="footer-info">
-                            <span id="footer-info">
+                            <span id="footer-info" style="font-family: 'Merriweather', serif;">
                Jadavpur University<br>
                Kolkata, IN
                </span>
                             <br>
                             <br>
                             <br>
-                            <span style="padding-top:10px">
+                            <span style="padding-top:10px" style="font-family: 'Merriweather', serif;">
                contact@juecell.in
                </span>
                             <br>
@@ -884,11 +889,11 @@ echo $_SESSION['message'];
                         <br>
                         <br>
                         <span class="footer-links">
-            <a href="#">Home</a><br><br>
-            <a href="#">Events</a><br><br>
-            <a href="#">About</a><br><br>
-            <a href="#">Reach Us</a><br><br>
-            <a href="#">Testinomial</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">Home</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">Events</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">About</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">Reach Us</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">Testinomial</a><br><br>
             </span>
                     </div>
                     <div class="col-sm-2">
@@ -898,10 +903,10 @@ echo $_SESSION['message'];
                         <br>
                         <br>
                         <span class="footer-links">
-            <a href="#">Hult Prize</a><br><br>
-            <a href="#">E-weekend</a><br><br>
-            <a href="#">Startup Weekend</a><br><br>
-            <a href="#">Summer in a startup</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">Hult Prize</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">E-weekend</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">Startup Weekend</a><br><br>
+            <a href="#" style="font-family: 'Merriweather', serif;">Summer in a startup</a><br><br>
             </span>
                     </div>
                     <div class="col-sm-3">
