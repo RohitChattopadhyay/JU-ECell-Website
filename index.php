@@ -42,7 +42,7 @@ if (isset($_POST['ambassador-form-submit'])) {
     $ambassador_email    = addslashes($_POST['ambassador-form-email']);
     $ambassador_college  = addslashes($_POST['ambassador-form-college']);
     $ambassador_phone    = addslashes($_POST['ambassador-form-phone']);
-    $ambassador_reasons  = addslashes($_POST['ambassador-form-reason']);
+    $ambassador_reason  = addslashes($_POST['ambassador-form-reason']);
     $_SESSION['message'] = "You just signed up to be well-informed about the great things we do at the Jadavpur University E-Cell!<br>
 Ideate. Innovate. Build!";
     
@@ -555,54 +555,7 @@ echo $_SESSION['message'];
             </div>
         </div>
 
-        <div class="container-fluid ">
-            <div class="container-contact">
-                <div class="container-form col-sm-7 col-md-5" id="ContactUs">
-                    <form action="#ContactUs" method="post" id="contact-form" name="contact-form">
-                        <h1> Contact Us </h1>
-                        <ul class="flex-outer">
-
-                            <li>
-                                <label for="contact-form-name"></label>
-                                <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-name" id="contact-form-name" placeholder="Name*" required>
-                            </li>
-
-                            <li>
-                                <label for="contact-form-email"></label>
-                                <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-email" id="contact-form-email" placeholder="EMail Address*" required>
-                            </li>
-                            <li>
-                                <label for="contact-form-phone"></label>
-                                <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-phone" id="contact-form-phone" placeholder="Contact Number">
-                            </li>
-                            <li>
-                                <label for="contact-form-message"></label>
-                                <textarea style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black; border-radius:0" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Your message*"></textarea>
-                            </li>
-
-                            <li>
-                                <center style="width:100%;text-align:right ">
-                                    <input type="submit" value="Send" id="contact-form-submit" name="contact-form-submit" style="
-    position:  relative;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    z-index: 0;
-    margin-right: 0 ;
-    background:  black;
-    box-shadow: 0 0;
-    border-radius: 0 ; 
-">
-                                </center>
-                            </li>
-                        </ul>
-                    </form>
-                </div>
-                <div class="container-map" style="margin-left:0;padding-right:0;height:600px">
-                    <h1>FIND US HERE </h1>
-                    <div id="map" style="width: 100%; color: black"></div>
-                </div>
-            </div>
-
-        </div>
+        
 
         <div class="container-fluid ">
             <div id="home-gallery" style="text-align:center">
@@ -861,7 +814,54 @@ echo $_SESSION['message'];
                     </div>
                 </div>
             </div>
+<div class="container-fluid ">
+            <div class="container-contact">
+                <div class="container-form col-sm-7 col-md-5" id="ContactUs">
+                    <form action="#ContactUs" method="post" id="contact-form" name="contact-form">
+                        <h1> Contact Us </h1>
+                        <ul class="flex-outer">
 
+                            <li>
+                                <label for="contact-form-name"></label>
+                                <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" name="contact-form-name" id="contact-form-name" placeholder="Name*" required>
+                            </li>
+
+                            <li>
+                                <label for="contact-form-email"></label>
+                                <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="email" name="contact-form-email" id="contact-form-email" placeholder="EMail Address*" required>
+                            </li>
+                            <li>
+                                <label for="contact-form-phone"></label>
+                                <input style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black;" type="text" pattern = "[0-9]{1,10}" name="contact-form-phone" id="contact-form-phone" placeholder="Contact Number">
+                            </li>
+                            <li>
+                                <label for="contact-form-message"></label>
+                                <textarea style="font-family: Helvetica Neue,Helvetica,Arial,sans-serif;color:  black; border-radius:0" rows="6" name="contact-form-message" id="contact-form-message" placeholder="Your message*"></textarea>
+                            </li>
+
+                            <li>
+                                <center style="width:100%;text-align:right ">
+                                    <input type="submit" value="Send" id="contact-form-submit" name="contact-form-submit" style="
+    position:  relative;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    z-index: 0;
+    margin-right: 0 ;
+    background:  black;
+    box-shadow: 0 0;
+    border-radius: 0 ; 
+">
+                                </center>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="container-map" style="margin-left:0;padding-right:0;height:600px">
+                    <h1>FIND US HERE </h1>
+                    <div id="map" style="width: 100%; color: black"></div>
+                </div>
+            </div>
+
+        </div>
             <div class="container-fluid" style="background-color:#1f2930">
                 <div id="footer" class="container">
                     <div id="img-footer" class="col-sm-4">
@@ -875,8 +875,7 @@ echo $_SESSION['message'];
                             <br>
                             <br>
                             <br>
-                            <span style="padding-top:10px" style="font-family: 'Merriweather', serif;">
-               contact@juecell.in
+                            <span style="padding-top:10px" style="font-family: 'Merriweather', serif;"><a href="mailto:contact@juecell.in" style="text-decoration:none;color:inherit">contact@juecell.in</a>
                </span>
                             <br>
                             <br>
