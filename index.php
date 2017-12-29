@@ -72,6 +72,12 @@ if (isset($_POST['contact-form-submit'])) {
 ?>
             <meta charset="utf-8">
             <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+	    <meta name="description" content="Entrepreneurship Cell of  Jadavpur University aims at manifesting the entrepreneurial spirit of young students by conducting workshops, competitions & sessions.">
+	    <meta property="og:description" content="We build young entrepreneurs through our initiatives.">
+            <meta property="og:type" content="website">
+            <meta property="og:image" content="https://i.imgur.com/hF7wWFJ.png">
+            <meta property="og:url" content="https://juecell.in/"> 
+            <meta property="og:title" content="JU Entrepreneurship Cell">
 
             <title>JU E-CELL | A Jadavpur University,Kolkata Students initiative</title>
 
@@ -498,8 +504,8 @@ echo $_SESSION['message'];
                             <a class="hexLink" href="#">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/xvTbKeU.png" alt="NASSCOM" />
-                                <h3>NASSCOM</h3>
-                                <p>Exciting App Dev Workshop with Internships at offer!</p>
+                                <h3>Analytics Workshop</h3>
+                                <p>Two-day workshop on Hadoop & Sentiment Analysis by NIVT</p>
                                 <span class="hexIn skew-box-diagonal-border"></span>
                             </a>
                         </div>
