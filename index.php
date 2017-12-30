@@ -190,9 +190,9 @@ echo $_SESSION['message'];
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                       <!--         <li>
                                     <a href="#">The Team</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="#apply">Apply</a>
                                     <ul class="nav-dropdown" style="display: none;">
@@ -220,44 +220,38 @@ echo $_SESSION['message'];
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
-                        <div class="item" id="topthree" style="color:white">
-                            <img src="https://i.imgur.com/Sb4eGWJ.jpg" style="width:100%;">
-                            <div class="header-text" style="color:white">
-                                <div class="col-md-12 text-center">
-                                    <h1>
-                              <strong></strong>
-                           </h1>
-                                </div>
-                            </div>
-                            <!-- /header-text -->
-                        </div>
-                        <div class="item" id="toptw" style="color:white;background-image: url('https://i.imgur.com/sm8Xidy.png');
-    background-position: cleft center;
-    background-attachment: fixed;
-    background-size: cover;
-    max-width: 100%;
-    height: 700px">
 
-                            <div class="header-text" style="color:white">
-                                <div class="col-md-12 text-left" style="color:white ; width: 100% ; text-align: left">
-                                    <h2 style="font-size: 56px ; font-weight: bold;font-family: 'Archivo Black', sans-serif
-">
-                        JADAVPUR UNIVERSITY
-                     </h2>
-                                    <h3>
-                         Entrepreneurship Cell
-                     </h3>
-                                    <br>
-                                    <div class="opening-button">
-                                        <button class="btn btn-danger">KNOW MORE</button>
-                                    </div>
-                                </div>
-                            </div>
+                        
+                                            <!-- 2nd -->
+                        <div class="item carousel-image-bg" id="topthree" style="background-image:url('assets/img/carousel/2.svg');background-color:black">
+
                             <!-- /header-text -->
                         </div>
-                        <div class="item active" id="topone" style="color:white">
-                            <img src="assets/img/carousel/1.svg" style="width:100%;">
-                            <div class="header-text " style="color:white">
+                        
+                        
+                        
+                        
+                                            <!-- 3rd -->
+                        <div class="item carousel-image-bg" id="toptw" style="background-image:url('assets/img/carousel/3.png');">
+
+                            </div>
+                            <!-- /header-text -->
+                                                    <div class="header-text" style="color:white">
+                                <div class="col-md-12 text-left" style="color:white ; width: 100% ; text-align: left">
+                                    <h2 style="font-size: 56px ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</h2>
+                                        <h3>Entrepreneurship Cell</h3>
+                                        <br>
+                                    
+                                </div>
+                        </div>
+                        
+                        
+                        
+                        
+                        
+                                    <!-- 1st -->
+                        <div class="item active carousel-image-bg" id="topone" style="background-image:url('assets/img/carousel/1.svg');">
+<!--                            <div class="header-text " style="color:white">
                                 <div class="col-md-12 text-left" style="color:white ; width: 100% ; text-align: left">
                                     <h2 style="font-size: 56px ; font-weight: bold;font-family: 'Archivo Black', sans-serif
 ">
@@ -272,7 +266,7 @@ echo $_SESSION['message'];
                                         <button class="btn btn-danger">KNOW MORE</button>
                                     </div>
                                 </div>
-                            </div>
+                            </div>-->
                             <!-- /header-text -->
                         </div>
                     </div>
@@ -504,7 +498,7 @@ echo $_SESSION['message'];
                         <div class="hexIn">
                             <a class="hexLink" href="#">
                                 <span class="box-vertical-border"></span>
-                                <img src="https://i.imgur.com/xvTbKeU.png" alt="NASSCOM" />
+                                <img src="https://i.imgur.com/tWqBvhe.png" alt="NASSCOM" />
                                 <h3 style="font-weight:bold" >Analytics Workshop</h3>
                                 <p>Two-day workshop on Hadoop & Sentiment Analysis by NIVT</p>
                                 <span class="hexIn skew-box-diagonal-border"></span>
