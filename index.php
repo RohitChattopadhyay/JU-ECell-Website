@@ -1070,8 +1070,8 @@ echo $_SESSION['message'];
       <div class="md-overlay"></div>
       <!-- the overlay element -->
       <!-- classie.js by @desandro: https://github.com/desandro/classie -->
-      <script src="js/classie.js"></script>
-      <script src="js/modalEffects.js"></script>
+      <script src="assets/js/classie.js"></script>
+      <script src="assets/js/modalEffects.js"></script>
       <!-- for the blur effect -->
       <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
       <script>
