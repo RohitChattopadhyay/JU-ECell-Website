@@ -92,7 +92,8 @@ if (isset($_POST['contact-form-submit'])) {
 			<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
             <script src="assets/js/modernizr.custom.js"></script>
-            <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+			      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="assets/js/jssor_home.js"></script>
 
@@ -1052,28 +1053,41 @@ echo $_SESSION['message'];
             </div>
         </div>
         <!-- Modal content for Campus Ambassador ends-->
-        <div class="md-overlay"></div>
-        <script src="assets/js/classie.js"></script>
-        <script src="assets/js/modalEffects.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="assets/js/GMap.js"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRiDrm36Kcz2OWvZgnwFAB1-Lk9SIQOlY&callback=initMap"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="assets/js/home.js"></script>
-        <script type="text/javascript" src="assets/js/scroll2top.js"></script>
-
-        <?php
-if (strlen($_SESSION['message']) != 0) {
-    echo "<script>
+        
+      <script type="text/javascript" src="assets/js/home.js">      </script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRiDrm36Kcz2OWvZgnwFAB1-Lk9SIQOlY&callback=initMap"></script>
+ 
+    
+	 
+	 
+	 
+	 
+	 
+      <div class="md-overlay"></div>
+      <!-- the overlay element -->
+      <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+      <script src="js/classie.js"></script>
+      <script src="js/modalEffects.js"></script>
+      <!-- for the blur effect -->
+      <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+      <script>
+         // this is important for IEs
+         var polyfilter_scriptpath = '/js/';
+      </script>
+      <script src="js/cssParser.js"></script>
+      <script src="js/css-filters-polyfill.js"></script>
+      <?php 
+         if(strlen($_SESSION['message'])!=0){
+         	echo "<script>
          	function button4ty(){
          	document.getElementById('thank-you-modal-button').click();
          }
          window.onload= button4ty ;
          	</script>";
-}
-?>
+         }
+         ?>
     </body>
 
     </html>
