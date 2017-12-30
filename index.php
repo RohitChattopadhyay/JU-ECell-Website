@@ -245,9 +245,9 @@ echo $_SESSION['message'];
 
                             </div>
                             <!-- /header-text -->
-                                                    <div class="header-text" style="color:white">
-                                <div class="col-md-12 text-left" style="color:white ; width: 100% ; text-align: left">
-                                    <h2 style="font-size: 56px ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</h2>
+                                                    <div class="header-text"  >
+                                <div class="col-md-12 text-left  " style=" color:white; width: 100% ; text-align: left">
+                                    <h2  style=" ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</h2>
                                         <h3>Entrepreneurship Cell</h3>
                                         <h4>Dedicated to inspiring young minds and imparting experience.</h4>
                                         <br>
