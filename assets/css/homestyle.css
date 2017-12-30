@@ -523,9 +523,26 @@ body{
     animation-duration: 1s;
   }
   
+  .caro_head_text{
+	  
+	  font-size:56px;
+  }
   
   
-    @media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
+  .header-text h2 {
+      font-size:56px !important;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    @media (max-width: 1200px) and (min-width:901px) { 
   
 	.vision h2{
   
@@ -551,12 +568,21 @@ body{
 	h1{
 		font-size:50px;
 	}
+	
+	
+	.header-text h2 {
+      font-size:50px !important;
+  }
+	
   }
     @media (max-width: 900px) and (min-width:601px) { 
 	.vision h2{
   
   font-size: 50px;
 }
+.header-text  h2{
+      font-size:45px;
+  }
 .vision p{
 	font-size:17px;
 }
@@ -578,12 +604,15 @@ p{
 	}
 
   }
-    @media (max-width: 600px) and (min-width:401px)  { /* <- 2-1  hexagons per row */
+    @media (max-width: 600px) and (min-width:401px)  { 
    
 	.vision h2{
   
   font-size: 45px;
 }
+.header-text h2 {
+      font-size:43px !important;
+  }
 .vision p{
 	font-size:16px;
 }
@@ -609,6 +638,9 @@ p{
 .vision p{
 	font-size:14px;
 }
+.header-text h2 {
+      font-size:37px;
+  }
 #about p{
   font-family: 'Scada', sans-serif;
   font-size:8px;
@@ -625,6 +657,9 @@ p{
 	h1{
 		font-size:32px;
 	}
+	.header-text h2 {
+      font-size:38px !important;
+  }
   }
   
   
@@ -1624,7 +1659,7 @@ a{
       left: 1.8%;
       right: auto;
       width: 100%;
-      color: #254441;
+      color: yellow;
   }
 
 
