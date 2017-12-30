@@ -1076,9 +1076,7 @@ echo $_SESSION['message'];
       <script>
          // this is important for IEs
          var polyfilter_scriptpath = '/js/';
-      </script>
-      <script src="js/cssParser.js"></script>
-      <script src="js/css-filters-polyfill.js"></script>
+</script>
       <?php 
          if(strlen($_SESSION['message'])!=0){
          	echo "<script>
