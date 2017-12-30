@@ -1059,8 +1059,8 @@ echo $_SESSION['message'];
         
       <script type="text/javascript" src="assets/js/home.js">      </script>
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="assets/js/GMap.js"></script>		 + 
- -        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRiDrm36Kcz2OWvZgnwFAB1-Lk9SIQOlY&callback=initMap"></script>
+    <script type="text/javascript" src="assets/js/GMap.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRiDrm36Kcz2OWvZgnwFAB1-Lk9SIQOlY&callback=initMap"></script>
 	 
 	 
 	 
