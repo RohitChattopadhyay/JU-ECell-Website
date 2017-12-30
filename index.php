@@ -140,6 +140,15 @@ if (isset($_POST['contact-form-submit'])) {
                     border: 3px solid red;
                     z-index: 2;
                 }
+                
+                .carousel-image-bg {
+                    color:white;
+                    background-position: center top;
+                    background-attachment: fixed;
+                    background-size: cover;
+                    width: 100%;
+                    height: 100%
+                }
             </style>
     </head>
 
