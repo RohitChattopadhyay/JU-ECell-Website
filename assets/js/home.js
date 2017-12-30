@@ -1,40 +1,6 @@
-         $(window).load(function() {
-                         function showhead(){
-                             $('.headingz').animate({
-                              opacity: '1'
-                          } , 2000 );
-                         };
-                         window.setTimeout( showhead, 300);
-                        
-                         
-                     });
-
-         
-         // Mobile Navigation
-         $('.mobile-toggle').click(function() {
-             if ($('.main_h').hasClass('open-nav')) {
-                 $('.main_h').removeClass('open-nav');
-             } else {
-                 $('.main_h').addClass('open-nav');
-             }
-         });
-         
-         $('.main_h li a').click(function() {
-             if ($('.main_h').hasClass('open-nav')) {
-                 $('.navigation').removeClass('open-nav');
-                 $('.main_h').removeClass('open-nav');
-             }
-         });
-         
-         $('nav a').click(function(event) {
-             var id = $(this).attr("href");
-             var offset = 70;
-             var target = $(id).offset().top - offset;
-             $('html, body').animate({
-                 scrollTop: target
-             }, 500);
-             event.preventDefault();
-         });
+  
+		 
+		 
          
          $(document).ready(function(){
          
@@ -73,57 +39,7 @@
          });
            
 
-         $(document).ready(function() {
-             
-             /* Every time the window is scrolled ... */
-             $(window).scroll( function(){
-             
-                 /* Check the location of each desired element */
-                 $('.hideme').each( function(i){
-                     
-                     var bottom_of_object = $(this).position().top + $(this).outerHeight();
-                     var bottom_of_window = $(window).scrollTop() + $(window).height();
-                     
-                     /* If the object is completely visible in the window, fade it it */
-                     if( bottom_of_window > bottom_of_object ){
-                         
-                         $(this).animate({'opacity':'1'},3000);
-                             
-                     }
-                     
-                 }); 
-             
-             });
-             
-         });
-
-
-         $(document).ready(function() {
-             
-             /* Every time the window is scrolled ... */
-             $(window).scroll( function(){
-             
-                 /* Check the location of each desired element */
-                 $('.hideme2').each( function(i){
-                     
-                     var bottom_of_object = $(this).position().top + $(this).outerHeight();
-                     var bottom_of_window = $(window).scrollTop() + $(window).height();
-                     
-                     /* If the object is completely visible in the window, fade it it */
-                     if( bottom_of_window > bottom_of_object ){
-                         
-                         $(this).animate({'opacity':'1'},3000);
-                             
-                     }
-                     
-                 }); 
-             
-             });
-             
-         });
-
-
-         $(document).ready(function($) { // Begin jQuery
+     $(document).ready(function($) { // Begin jQuery
            $(function() { // DOM ready
              // If a link has a dropdown, add sub menu toggle.
              $('nav ul li a:not(:only-child)').mouseenter(function(e) {
@@ -156,6 +72,9 @@
            }); // end DOM ready
          }); // end jQuery
 
+  
+		 
+		 
 
          window.onload=setTimeout(MadeByTheDRAgon, 10000);
          function MadeByTheDRAgon() {
@@ -171,5 +90,5 @@
                          };
                          window.setTimeout( showhead, 300);
                         
-                         
-                     });
+                        
+                     }); 
