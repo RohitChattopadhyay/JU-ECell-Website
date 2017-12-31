@@ -16,12 +16,20 @@
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Changa+One|Fjalla+One|Roboto|Oswald|Open+Sans" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../assets/js/smoothScroll.js"></script>
+<!--    <script src="https://rawgit.com/nathco/jQuery.scrollSpeed/master/jQuery.scrollSpeed.js"></script>-->
+    <script>
+        $(function() {
+            $.scrollSpeed(100, 800);
+        });
+    </script>
 </head>
 
-<body>
+<body id="body-of-the-page">
 
 <nav>
-        <div id="logo"><a href="./"><img src="https://i.imgur.com/NSBCfAX.png"  style="height: 60px; margin-top:5px;margin-bottom:5px"></a></div>
+        <div id="logo"><a href="../"><img src="https://i.imgur.com/NSBCfAX.png"  style="height: 60px; margin-top:5px;margin-bottom:5px"></a></div>
 
         <label for="drop" class="toggle" style="font-family: 'Lato', sans-serif;">Menu</label>
         <input type="checkbox" id="drop" />
@@ -30,14 +38,14 @@
             <li>
                 <!-- First Tier Drop Down -->
                 <label for="drop-1" class="toggle">Hult Prize </label>
-                <a href="#">Hult Prize</a>
+                <a href="#event-hult-prize">Hult Prize</a>
                 <input type="checkbox" id="drop-1" />
                 <ul>
-                    <li style=""><a href="#">2017</a>
+                    <li><a href="#year-hult-prize-2017">2017</a>
                     </li>
-                    <li><a href="#">2016</a>
+                    <li><a href="#year-hult-prize-2016">2016</a>
                     </li>
-                    <li><a href="#">2015</a>
+                    <li><a href="#year-hult-prize-2015">2015</a>
                     </li>
                 </ul>
 
@@ -45,30 +53,27 @@
             <li>
 
                 <!-- First Tier Drop Down -->
-                <label for="drop-2" class="toggle">E-Weekend </label>
-                <a href="#">E-Weekend
-                            </a>
+                <label for="drop-2" class="toggle">E-Weekend</label>
+                <a href="#event-e-week">E-Weekend</a>
                 <input type="checkbox" id="drop-2" />
                 <ul>
                     <li>
 
                         <!-- Second Tier Drop Down -->
                         <label for="drop-3" class="toggle">2017</label>
-                        <a href="#">2017</a>
+                        <a href="#event-e-week">2017</a>
                         <input type="checkbox" id="drop-3" />
 
                         <ul>
-                            <li><a href="#">Ideas for Change</a>
+                            <li><a href="#event-ideas-for-change">Ideas for Change</a>
                             </li>
-                            <li><a href="#">Hackathon</a>
+                            <li><a href="#event-hackathon">Hackathon</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
             </li>
-            <li><a href="#">Data Analytics</a>
-            </li>
-            <li><a href="#">Summer In A Startup</a>
+            <li><a href="#event-s-week">Start Up Weekend</a>
             </li>
         </ul>
     </nav>
@@ -81,15 +86,15 @@
 	</div>
 	
 	
-	<div class="event-separator">
-	<img src="https://i.imgur.com/4NpD2CO.png" style="width: 80% ; max-height: 300px; max-width: 300px"></img>
+	<div class="event-separator" id="event-hult-prize">
+	<img src="https://i.imgur.com/4NpD2CO.png" style="width: 80% ; max-height: 300px; max-width: 300px">
 	</div>
 	
 <div class="container">
 
 <div class="row">
 
-<div class="card col-md-5 col-sm-12">
+<div class="card col-md-5 col-sm-12" id="year-hult-prize-2017">
   <a href="#">
   <div class="card-image">
     <img src="https://i.imgur.com/9F6VO1W.png" alt="Orange" />
@@ -112,10 +117,10 @@
   </div>
   </a>
 </div>
-<
 
 
-<div class="card col-md-5 col-sm-12">
+
+<div class="card col-md-5 col-sm-12" id="year-hult-prize-2016">
   <a href="#">
   <div class="card-image">
     <img src="https://i.imgur.com/thVplww.png" />
@@ -141,7 +146,7 @@
   </div>
   </a>
 </div>
-<div class="card col-md-5 col-sm-12">
+<div class="card col-md-5 col-sm-12" id="year-hult-prize-2015">
   <a href="#">
   <div class="card-image">
     <img src="https://i.imgur.com/nwuEa71.jpg" alt="Orange" />
@@ -162,7 +167,7 @@
                                 residing in the urban crowded spaces, targeting the extensively increasing customer base
                                 for non-branded commodities.After winning hearts and corporate brownie points at the Hult Prize @Jadavpur
                         University 2016, Team Solution went on to participate in the Regional Finals in Dubai.
-                            </p></p>
+                            </p>
     </div>
     
   </div>
@@ -173,8 +178,8 @@
 </div>
 </div>
 
-<div class="event-separator">
-	<img src="https://i.imgur.com/CvxpvHB.png" style="max-height: 400px; max-width: 400px"></img>
+<div class="event-separator" id="event-s-week">
+	<img src="https://i.imgur.com/CvxpvHB.png" style="max-height: 400px; max-width: 400px">
 	</div>
 	
 <div class="row">
@@ -182,7 +187,7 @@
 
 
 
-<div class="card col-md-5 col-sm-12">
+<div class="card col-md-5 col-sm-12" id="year-s-week-2016">
   <a href="#">
   <div class="card-image">
     <img src="https://i.imgur.com/dYblni0.jpg" />
@@ -211,14 +216,14 @@
 
 </div>
 </div>
-<div class="event-separator">
-	<img src="https://i.imgur.com/rgw6ttN.png" style="max-height: 400px; max-width: 400px"></img>
+<div class="event-separator" id="event-e-week">
+	<img src="https://i.imgur.com/rgw6ttN.png" style="max-height: 400px; max-width: 400px">
 	</div>
 	
 
 <div class="row">
 
-<div class="card col-md-5 col-sm-12">
+<div class="card col-md-5 col-sm-12" id="event-hackathon">
   <a href="#">
   <div class="card-image">
     <img src="https://i.imgur.com/Z3zvNUT.png"  />
@@ -246,7 +251,7 @@ real-time. A perfect match for the City of Joy, we say!
 </div>
 
 
-<div class="card col-md-5 col-sm-12">
+<div class="card col-md-5 col-sm-12" id="event-ideas-for-change">
   <a href="#">
   <div class="card-image">
     <img src="https://i.imgur.com/1qK7dtB.png" />
@@ -280,68 +285,74 @@ Limaye ( Dainik Jagaran).</p>
 </div>
 
 
-<div class="container-fluid" style="background-color:#1f2930">
-  <div id="footer" class="container" >
-     <div id="img-footer" class="col-sm-4">
-        <span><img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png"  style="margin-top:20px;height:70px"></span>
-        <hr>
-        <div id="footer-info" style="font-family: 'Lato', sans-serif;" >
-           <span id="footer-info">
-           Jadavpur University<br>
-           Kolkata, IN
-           </span>
-           <br><br><br>
-           <span style="padding-top:10px">
-           contact@juecell.in
-           </span>
-           <br>
-           <br>
-        </div>
-     </div>
-     <div class="col-sm-2">
-        <span style="font-family: 'Anton', sans-serif;">
-           <h3>Navigate</h3>
-        </span>
-        <br>
-        <br>
-        <span class="footer-links" style="font-family: 'Lato', sans-serif;">
-        <a href="#" >Home</a><br><br>
-        <a href="#">Events</a><br><br>
-        <a href="#">About</a><br><br>
-        <a href="#">Reach Us</a><br><br>
-        <a href="#">Testinomial</a><br><br>
-        </span>
-     </div>
-     <div class="col-sm-2">
-        <span style="font-family: 'Anton', sans-serif;">
-           <h3>Initiatives</h3>
-        </span>
-        <br>
-        <br>
-        <span class="footer-links" style="font-family: 'Lato', sans-serif;">
-        <a href="#">Hult Prize</a><br><br>
-        <a href="#">E-weekend</a><br><br>
-        <a href="#">Startup Weekend</a><br><br>
-        <a href="#">Summer in a startup</a><br><br>
-        </span>
-     </div>
-     <div class="col-sm-3" >
-        <span style="font-family: 'Anton', sans-serif;">
-           <h3>Social Media</h3>
-        </span>
-        <br>
-        <br>
-  <span>
-      <a href="#" class="col-sm-2 footer-social fa fa-facebook"></a>
-      <a href="#" class="col-sm-2 footer-social fa fa-twitter"></a>
-      <a href="#" class="col-sm-2 footer-social fa fa-linkedin"></a>
-      <a href="#" class="col-sm-2 footer-social fa fa-youtube-play"></a>
-      <a href="#" class="col-sm-2 footer-social fa fa-google-plus"></a>
-  </span>
-     </div>
-     <div class="col-sm-1"></div>
-  </div>
-  </div>
+            <div class="container-fluid" style="background-color:#1f2930">
+                <div id="footer" class="container">
+                    <div id="img-footer" class="col-sm-4">
+                        <span><a href="#body-of-the-page"><img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png"  style="margin-top:20px;height:70px"></a></span>
+                        <hr>
+                        <div id="footer-info">
+                            <span id="footer-info" style="font-family: 'Merriweather', serif;">
+               Jadavpur University<br>
+               Kolkata, IN
+               </span>
+                            <br>
+                            <br>
+                            <br>
+                            <span style="padding-top:10px" style="font-family: 'Merriweather', serif;"><a href="mailto:contact@juecell.in" style="text-decoration:none;color:inherit">contact@juecell.in</a>
+               </span>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+<!--
+                        <span style="font-family: 'Anton', sans-serif;">
+               <h3>Navigate</h3>
+            </span>
+                        <br>
+                        <br>
+                        <span class="footer-links">
+            <a href="#body-of-the-page">Home</a><br><br>
+            <a href="#about">About</a><br><br>
+            <a href="#home-gallery">Gallery</a><br><br>
+            <a href="#testinomial">Testinomial</a><br><br>
+            <a href="./winner/">Winners</a><br><br>
+            <a href="#ContactUs">Reach Us</a><br><br>
+                    </span>
+-->
+                    </div>
+                    <div class="col-sm-2">
+ <!--                       <span style="font-family: 'Anton', sans-serif;">
+               <h3>Initiatives</h3>
+            </span>
+                        <br>
+                        <br>
+
+            <span class="footer-links">
+            <a href="./hult" target="_blank">Hult Prize</a><br><br>
+            <a href="#past-events-e-week">E-Weekend</a><br><br>
+            <a href="#past-events-s-week">Startup Weekend</a><br><br>
+            <a href="#past-events-sis">Summer in a Startup</a><br><br>
+            </span>
+-->
+                    </div>
+                    <div class="col-sm-3">
+                        <span style="font-family: 'Anton', sans-serif;">
+               <h3>Social Media</h3>
+            </span>
+                        <br>
+                        <br>
+                        <span>
+					<a href="https://www.facebook.com/juecell/" target="_blank" class="col-sm-2 footer-social fa fa-facebook"></a>
+					<a href="https://twitter.com/ju_ecell" target="_blank" class="col-sm-2 footer-social fa fa-twitter"></a>
+					<a href="https://in.linkedin.com/company/jadavpur-university-entrepreneurship-cell" target="_blank" class="col-sm-2 footer-social fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/channel/UCAiMo_wiKzdJd0rPoBlmf3Q" target="_blank" class="col-sm-2 footer-social fa fa-youtube-play"></a>
+					<a href="https://www.instagram.com/ecell_jadavpur/" target="_blank" class="col-sm-2 footer-social fa fa-instagram"></a>
+			</span>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
 
   <style>
     .footer-social {
@@ -362,8 +373,8 @@ Limaye ( Dainik Jagaran).</p>
     .fa-youtube-play:hover {
     color:#bb0000;
     }
-    .fa-google-plus:hover {
-    color:#dd4b39;
+    .fa-instagram:hover {
+    color:#fbad50;
     }
  </style>
 
