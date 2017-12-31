@@ -318,7 +318,7 @@ echo $_SESSION['message'];
 
                         
                                             <!-- 2nd -->
-                        <div class="item carousel-image-bg" id="topthree" style="background-image:url('https://www.entrepreneurshipexercisejournal.com/wp-content/uploads/2017/05/cropped-Fotolia_55534988_XL-1.jpg');background-color:#5E5A5B">
+                        <div class="item carousel-image-bg" id="topthree" style="background-image:url('assets/img/carousel/2.jpg');background-color:#5E5A5B">
 
                             <!-- /header-text -->
                         </div>
@@ -334,8 +334,8 @@ echo $_SESSION['message'];
                                                     <div class="header-text"  >
                                 <div class="col-md-12 text-left font-outline" style=" color:white; width: 100% ; text-align: left">
                                     <div class="heading-1"  style=" ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</div>
-                                        <div class="heading-2" style="font-family: 'Archivo Black', sans-serif">Entrepreneurship Cell</div>
-                                        <div class="heading-3" style="display:none">Dedicated to inspiring young minds and imparting experience.</div>
+                                        <div class="heading-2">Entrepreneurship Cell</div>
+                                        <div class="heading-3">Dedicated to inspiring young minds and imparting experience.</div>
                                         <br>
                                     
                                 </div>
