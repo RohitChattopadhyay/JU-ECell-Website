@@ -991,7 +991,7 @@ echo $_SESSION['message'];
                         <span class="footer-links">
             <a href="#about">About</a><br><br>
             <a href="#home-gallery">Gallery</a><br><br>
-            <a href="#testimonial">testimonial</a><br><br>
+            <a href="#testimonial">Testimonial</a><br><br>
             <a href="./winner/">Winners</a><br><br>
             <a href="#ContactUs">Reach Us</a><br><br>
                     </span>
