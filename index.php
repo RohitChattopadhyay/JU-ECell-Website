@@ -92,10 +92,15 @@ if (isset($_POST['contact-form-submit'])) {
 			<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
             <script src="assets/js/modernizr.custom.js"></script>
-			      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-
+			 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="assets/js/jssor_home.js"></script>
+            <script src="../assets/js/smoothScroll.js"></script>
+            <script>
+                $(function() {
+                    $.scrollSpeed(100, 800);
+                });
+            </script>
 
             <style>
                 .container-fluid {
@@ -150,30 +155,12 @@ if (isset($_POST['contact-form-submit'])) {
                     width: 100%;
                     height: 100%
                 }
-            </style>
-        <style>
-        /*! Outline Font */
 
-/*
-@font-face {
-    font-family: 'fenwick';
-    src: url('./assets/fonts/outline-font/fenwick_outline.eot');
-    src: url('./assets/fonts/outline-font/fenwick_outline.eot?#iefix') format('embedded-opentype'),
-         url('./assets/fonts/outline-font/fenwick_outline.woff2') format('woff2'),
-         url('./assets/fonts/outline-font/fenwick_outline.woff') format('woff'),
-         url('./assets/fonts/outline-font/fenwick_outline.ttf') format('truetype'),
-         url('./assets/fonts/outline-font/fenwick_outline.svg#fenwickoutline') format('svg');
-    font-weight: normal;
-    font-style: normal;
 
-}
-            
-*/
             .font-outline {
                 text-shadow: -1px -1px 0 #000,      1px -1px 0 #000,      -1px 1px 0 #000,      1px 1px 0 #000,        -2px 0 0 #000,      2px 0 0 #000,      0 2px 0 #000,      0 -2px 0 #000;
             }
-        </style>
-        <style>
+
             .heading-1 {
                 font-size: 5vw;
             }
@@ -201,71 +188,50 @@ if (isset($_POST['contact-form-submit'])) {
             }
         
         </style>
-               
+           <script type="text/javascript">
+    //<![CDATA[
+        $(window).on('load', function() { // makes sure the whole site is loaded 
+            $('#status').fadeOut(); // will first fade out the loading animation 
+            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+            $('body').delay(350).css({'overflow':'visible'});
+          })
+    //]]>
+</script>   
+        <style>
+        body {
+	overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#231F20; /* change if the mask should have another color then white */
+	z-index:999999999999999999999999999; /* makes sure it stays on top */
+}
+
+#status {
+	width:100%;
+	height:100%;
+	position:absolute;
+/*	left:50%; /* centers the loading animation horizontally on the screen */
+/*	top:50%; /* centers the loading animation vertically on the screen */
+	background-image:url(./assets/img/preLoader.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+/*  margin:-20% 0 0 -0%; /* is width and height divided by two */
+}
+        </style>
     </head>
 
     <body id="body-of-the-page">
-	    <div class="preloader" style="position: fixed;
- 
-  height: 100%;
-  top: 0;
-  right:0;
-  bottom:0;
-  left: 0;
-  z-index: 9999;
-  
-  background: #252020
-  ;">
-			<div class="container-fluid">
-				<div class="row" style="margin-left: 15%;">
-
-					
-
-					<div class="col-md-12">
-						<div class="preloader-image hidden-xs" style="position: absolute; padding-right:33%;
-							
-								
-
-								">
-							<img src="https://i.imgur.com/hQZ4cyx.gif" alt="loader-missing">
-						</div>
-					</div>
-
-				</div>
-
-
-
-
-
-
-
-			</div>
-
-			<div class="small_preloader hidden-lg hidden-xl">
-				<div class="container-fluid">
-
-
-
-					<div class="row">
-						<div class="preloader-image hidden-lg-up" style="position: absolute;
-  left: 45%;
-  top: 25%;
-  margin-left:-358px;margin-top:-170px;height:50%;">
-							<img src="https://i.imgur.com/hQZ4cyx.gif" alt="loader-missing">
-
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-		</div>
-		<script type="text/javascript">
-			setTimeout(function () {
-				$('.preloader').fadeOut();
-			}, 2000);
-			console.log("in preloader");
-		</script>
+        
+        <div id="preloader">
+	<div id="status">&nbsp;</div>
+</div>
         <button class="md-trigger" data-modal="modal-12" id="thank-you-modal-button" style="display:none"></button>
         <div class="md-modal md-effect-4" id="modal-12">
             <div class="md-content">
@@ -1184,7 +1150,6 @@ echo $_SESSION['message'];
       <!-- the overlay element -->
       <!-- classie.js by @desandro: https://github.com/desandro/classie -->
       <script src="assets/js/classie.js"></script>
-      <script src="assets/js/smoothScroll.js"></script>
       <script src="assets/js/modalEffects.js"></script>
       <!-- for the blur effect -->
       <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
