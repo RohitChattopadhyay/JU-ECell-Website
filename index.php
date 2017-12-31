@@ -966,7 +966,7 @@ echo $_SESSION['message'];
             <div class="container-fluid" style="background-color:#1f2930">
                 <div id="footer" class="container">
                     <div id="img-footer" class="col-sm-4">
-                        <span><img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png"  style="margin-top:20px;height:70px"></span>
+                        <span><a  href="#body-of-the-page"><img id="footer-logo" src="https://i.imgur.com/NSBCfAX.png"  style="margin-top:20px;height:70px"></a></span>
                         <hr>
                         <div id="footer-info">
                             <span id="footer-info" style="font-family: 'Merriweather', serif;">
@@ -989,7 +989,6 @@ echo $_SESSION['message'];
                         <br>
                         <br>
                         <span class="footer-links">
-            <a href="#body-of-the-page">Home</a><br><br>
             <a href="#about">About</a><br><br>
             <a href="#home-gallery">Gallery</a><br><br>
             <a href="#testinomial">Testinomial</a><br><br>
