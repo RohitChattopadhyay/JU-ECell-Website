@@ -883,6 +883,7 @@ echo $_SESSION['message'];
                                     </blockquote>
                                 </div>
                                 <!-- Quote 3 -->
+<!--
                                 <div class="item">
                                     <blockquote>
                                         <div class="row">
@@ -893,6 +894,7 @@ echo $_SESSION['message'];
                                         </div>
                                     </blockquote>
                                 </div>
+-->
                             </div>
                             <!-- Bottom Carousel Indicators -->
                             <ol class="carousel-indicators">
@@ -900,8 +902,10 @@ echo $_SESSION['message'];
                                 </li>
                                 <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/cXQ9Wsrt.png" alt="">
                                 </li>
+<!--
                                 <li data-target="#testinomial-quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
                                 </li>
+-->
                             </ol>
 
                             <!-- Carousel Buttons Next/Prev -->
