@@ -852,11 +852,11 @@ echo $_SESSION['message'];
                     jssor_1_slider_init();
                 </script>
             </div>
-            <div id="testinomial" class="container-fluid">
+            <div id="testimonial" class="container-fluid">
                 <div class="roww">
                     <div class="col-md-12">
                         <h1 style="color: black ;font-family: 'Changa One', cursive; text-align:center"> Testimonial </h1>
-                        <div class="carousel slide" data-ride="carousel" id="testinomial-quote-carousel">
+                        <div class="carousel slide" data-ride="carousel" id="testimonial-quote-carousel">
 
                             <!-- Carousel Slides / Quotes -->
                             <div class="carousel-inner text-center">
@@ -898,19 +898,19 @@ echo $_SESSION['message'];
                             </div>
                             <!-- Bottom Carousel Indicators -->
                             <ol class="carousel-indicators">
-                                <li data-target="#testinomial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://i.imgur.com/2tqMelrt.png" alt="">
+                                <li data-target="#testimonial-quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="https://i.imgur.com/2tqMelrt.png" alt="">
                                 </li>
-                                <li data-target="#testinomial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/cXQ9Wsrt.png" alt="">
+                                <li data-target="#testimonial-quote-carousel" data-slide-to="1"><img class="img-responsive" src="https://i.imgur.com/cXQ9Wsrt.png" alt="">
                                 </li>
 <!--
-                                <li data-target="#testinomial-quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                                <li data-target="#testimonial-quote-carousel" data-slide-to="2"><img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
                                 </li>
 -->
                             </ol>
 
                             <!-- Carousel Buttons Next/Prev -->
-                            <a data-slide="prev" href="#testinomial-quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                            <a data-slide="next" href="#testinomial-quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+                            <a data-slide="prev" href="#testimonial-quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                            <a data-slide="next" href="#testimonial-quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -991,7 +991,7 @@ echo $_SESSION['message'];
                         <span class="footer-links">
             <a href="#about">About</a><br><br>
             <a href="#home-gallery">Gallery</a><br><br>
-            <a href="#testinomial">Testinomial</a><br><br>
+            <a href="#testimonial">testimonial</a><br><br>
             <a href="./winner/">Winners</a><br><br>
             <a href="#ContactUs">Reach Us</a><br><br>
                     </span>
