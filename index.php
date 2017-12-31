@@ -91,20 +91,10 @@ if (isset($_POST['contact-form-submit'])) {
 			<link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 			<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="assets/js/modernizr.custom.js"></script>
             <script src="assets/js/jssor_home.js"></script>
-<<<<<<< HEAD
-
-=======
-            <script src="assets/js/smoothScroll.js"></script>
-            <script>
-                $(function() {
-                    $.scrollSpeed(100, 800);
-                });
-            </script>
->>>>>>> parent of 2f32ccf... fix
 
             <style>
                 .container-fluid {
@@ -229,6 +219,15 @@ if (isset($_POST['contact-form-submit'])) {
 /*  margin:-20% 0 0 -0%; /* is width and height divided by two */
 }
         </style>
+                    <script src="assets/js/smoothScroll.js"></script>
+<!--
+    <script>
+        $(function() {
+            $.scrollSpeed(100, 800);
+        });
+    </script>
+-->
+
     </head>
 
     <body id="body-of-the-page">
@@ -1161,12 +1160,6 @@ echo $_SESSION['message'];
          // this is important for IEs
          var polyfilter_scriptpath = '/js/';
     </script>
-            <script src="assets/js/smoothScroll.js"></script>
-            <script>
-                $(function() {
-                    $.scrollSpeed(100, 800);
-                });
-            </script>
 
       <?php 
          if(strlen($_SESSION['message'])!=0){
