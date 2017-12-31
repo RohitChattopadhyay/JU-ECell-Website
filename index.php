@@ -110,6 +110,7 @@ if (isset($_POST['contact-form-submit'])) {
                 #footer .footer-links a {
                     text-decoration: none;
                     color: white;
+                    font-family: 'Merriweather', serif;
                 }
                 
                 #home-gallery .ti {
@@ -230,9 +231,7 @@ echo $_SESSION['message'];
                         <nav class="headd">
                             <div class="nav-mobile"><a id="nav-toggle" href="#!"><span></span></a></div>
                             <ul class="nav-list" style="font-family: 'Asap', sans-serif;">
-                                <li>
-                                    <a href="#" >Home</a>
-                                </li>
+
                                 <li>
                                     <a href="#about" >About</a>
                                 </li>
@@ -240,15 +239,21 @@ echo $_SESSION['message'];
                                     <a href="#pasts">Initiatives</a>
                                     <ul class="nav-dropdown" style="display: none;">
                                         <li>
-                                            <a href="#pasts">Hult Prize</a>
+                                            <a href="#past-events-hult-prize">Hult Prize</a>
                                         </li>
                                         <li>
-                                            <a href="#pasts">Summer in a Startup</a>
+                                            <a href="#past-events-sis">Summer in a Startup</a>
                                         </li>
                                         <li>
-                                            <a href="#pasts">E-Weekend</a>
+                                            <a href="#past-events-abc">abc | Analytics Club</a>
+                                        </li>
+                                        <li>
+                                            <a href="#past-events-e-week">E-Weekend</a>
                                         </li>
                                     </ul>
+                                </li>
+                               <li>
+                                    <a href="./winner/" >Winners</a>
                                 </li>
                        <!--         <li>
                                     <a href="#">The Team</a>
@@ -258,10 +263,10 @@ echo $_SESSION['message'];
                                     <ul class="nav-dropdown" style="display: none;">
 
                                         <li>
-                                            <a href="#">As Coordinator</a>
+                                            <a href="#" data-toggle="modal" data-target="#Coordinator-Modal">As Coordinator</a>
                                         </li>
                                         <li>
-                                            <a href="#">As Campus Ambassador</a>
+                                            <a href="#" data-toggle="modal" data-target="#Ambassador-Modal">As Campus Ambassador</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -408,7 +413,7 @@ echo $_SESSION['message'];
 
                 <div class="card card-1">
                     <div class="card-image">
-                        <img class="upcoming-card-1-img" src="https://i.imgur.com/Wmqxv19.png" alt=""></img>
+                        <img class="upcoming-card-1-img" src="https://i.imgur.com/Wmqxv19.png" alt="Josh Talks"></img>
                     </div>
 
                     <div class="card-body">
@@ -417,13 +422,13 @@ echo $_SESSION['message'];
 
                         <p><strong style="color: black ; font-size : 16px">Where </strong>: Jadavpur University Gandhi Bhavan </p>
                         <p><strong style="color: black ; font-size : 16px">When :</strong> 14th January , 2018 </p>
-                        <p style="text-align: center"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>
+                        <p style="text-align: center"><a href="https://events.joshtalks.com/kolkata18/" class="btn btn-lg btn-primary detail-button">Details</a></p>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="card-image">
-                        <img class="upcoming-card-1-img" src="https://i.imgur.com/fLGTOmN.png" alt=""></img>
+                        <img class="upcoming-card-1-img" src="https://i.imgur.com/fLGTOmN.png" alt="Falling Walls Lab"></img>
                     </div>
 
                     <div class="card-body">
@@ -432,7 +437,7 @@ echo $_SESSION['message'];
 
                         <p><strong style="color: black ; font-size : 16px">Where </strong>: Jadavpur University Gandhi Bhavan </p>
                         <p><strong style="color: black ; font-size : 16px">When :</strong> April , 2018 </p>
-                        <p style="text-align: center"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>
+<!--                        <p style="text-align: center"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>-->
                     </div>
                 </div>
 
@@ -443,11 +448,11 @@ echo $_SESSION['message'];
         <div class="container-fluid ">
             <div class="section honeycomb-size-fix" style="text-align: center" id="pasts">
                 <h1 style="color: white ;font-family: 'Changa One', cursive;
-               "> PAST EVENTS </h1>
+               ">PAST EVENTS</h1>
                 <ul id="hexgrid" style="padding-left:0px">
                     <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="#">
+                        <div class="hexIn" id="past-events-hult-prize">
+                            <a class="hexLink" href="./hult" target="_blank">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/b92rjqb.png" alt="" />
                                 <h3 style="font-weight:bold" >Hult Prize at JU</h3>
@@ -457,8 +462,8 @@ echo $_SESSION['message'];
                         </div>
                     </li>
                     <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="#">
+                        <div class="hexIn" id="past-events-abc">
+                            <a class="hexLink" href="./abc" target="_blank">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/VKnSAKH.jpg" alt="" />
                                 <h3 style="font-weight:bold" >JU ABC Club</h3>
@@ -469,7 +474,7 @@ echo $_SESSION['message'];
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="#">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/TcoGzRz.png" alt="" />
                                 <h3 style="font-weight:bold" >Jet Set Vote</h3>
@@ -479,8 +484,8 @@ echo $_SESSION['message'];
                         </div>
                     </li>
                     <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="#">
+                        <div class="hexIn"  id="past-events-sis">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/qHO3RqD.png" alt="Summer in a Startup " />
                                 <h3 style="font-weight:bold" >Summer in a Startup</h3>
@@ -490,8 +495,8 @@ echo $_SESSION['message'];
                         </div>
                     </li>
                     <li class="hex">
-                        <div class="hexIn">
-                            <a class="hexLink" href="#">
+                        <div class="hexIn" id="past-events-e-week">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/9hrDuBc.png" alt="E-Weekend 2017" />
                                 <h3 style="font-weight:bold" >E-Weekend 2017</h3>
@@ -502,7 +507,7 @@ echo $_SESSION['message'];
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="#">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/jQWjiWF.png" alt="Facebook on Campus" />
                                 <h3 style="font-weight:bold" >FB on Campus</h3>
@@ -513,7 +518,7 @@ echo $_SESSION['message'];
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="#">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/Rcs85FJ.png" alt="" />
                                 <h3 style="font-weight:bold" >Start-Up Weekend</h3>
@@ -524,7 +529,7 @@ echo $_SESSION['message'];
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="#">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/oos8JME.png" alt="" />
                                 <h3 style="font-weight:bold" >Epiphany</h3>
@@ -535,7 +540,7 @@ echo $_SESSION['message'];
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="#">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/e4ZNWyQ.png" alt="" />
                                 <h3 style="font-weight:bold" >B-Model</h3>
@@ -546,7 +551,7 @@ echo $_SESSION['message'];
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="#">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/lDO9V4O.png" alt="" />
                                 <h3 style="font-weight:bold" >The Great Debate</h3>
@@ -557,7 +562,7 @@ echo $_SESSION['message'];
                     </li>
                     <li class="hex">
                         <div class="hexIn">
-                            <a class="hexLink" href="#">
+                            <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/tWqBvhe.png" alt="NASSCOM" />
                                 <h3 style="font-weight:bold" >Analytics Workshop</h3>
@@ -950,12 +955,13 @@ echo $_SESSION['message'];
                         <br>
                         <br>
                         <span class="footer-links">
-            <a href="#" style="font-family: 'Merriweather', serif;">Home</a><br><br>
-            <a href="#" style="font-family: 'Merriweather', serif;">Events</a><br><br>
-            <a href="#" style="font-family: 'Merriweather', serif;">About</a><br><br>
-            <a href="#" style="font-family: 'Merriweather', serif;">Reach Us</a><br><br>
-            <a href="#" style="font-family: 'Merriweather', serif;">Testinomial</a><br><br>
-            </span>
+            <a href="#">Home</a><br><br>
+            <a href="#about">About</a><br><br>
+            <a href="#home-gallery">Gallery</a><br><br>
+            <a href="#testinomial">Testinomial</a><br><br>
+            <a href="./winner/">Winners</a><br><br>
+            <a href="#ContactUs">Reach Us</a><br><br>
+                    </span>
                     </div>
                     <div class="col-sm-2">
                         <span style="font-family: 'Anton', sans-serif;">
@@ -964,10 +970,10 @@ echo $_SESSION['message'];
                         <br>
                         <br>
                         <span class="footer-links">
-            <a href="#" style="font-family: 'Merriweather', serif;">Hult Prize</a><br><br>
-            <a href="#" style="font-family: 'Merriweather', serif;">E-weekend</a><br><br>
-            <a href="#" style="font-family: 'Merriweather', serif;">Startup Weekend</a><br><br>
-            <a href="#" style="font-family: 'Merriweather', serif;">Summer in a startup</a><br><br>
+            <a href="./hult" target="_blank">Hult Prize</a><br><br>
+            <a href="#past-events-e-week">E-Weekend</a><br><br>
+            <a href="#past-events-">Startup Weekend</a><br><br>
+            <a href="#past-events-sis">Summer in a startup</a><br><br>
             </span>
                     </div>
                     <div class="col-sm-3">
@@ -977,29 +983,24 @@ echo $_SESSION['message'];
                         <br>
                         <br>
                         <span>
-					<a href="#" class="col-sm-2 footer-social fa fa-facebook"></a>
-					<a href="#" class="col-sm-2 footer-social fa fa-twitter"></a>
-					<a href="#" class="col-sm-2 footer-social fa fa-linkedin"></a>
-					<a href="#" class="col-sm-2 footer-social fa fa-youtube-play"></a>
-					<a href="#" class="col-sm-2 footer-social fa fa-google-plus"></a>
+					<a href="https://www.facebook.com/juecell/" target="_blank" class="col-sm-2 footer-social fa fa-facebook"></a>
+					<a href="https://twitter.com/ju_ecell" target="_blank" class="col-sm-2 footer-social fa fa-twitter"></a>
+					<a href="https://in.linkedin.com/company/jadavpur-university-entrepreneurship-cell" target="_blank" class="col-sm-2 footer-social fa fa-linkedin"></a>
+					<a href="https://www.youtube.com/channel/UCAiMo_wiKzdJd0rPoBlmf3Q" target="_blank" class="col-sm-2 footer-social fa fa-youtube-play"></a>
+					<a href="https://www.instagram.com/ecell_jadavpur/" target="_blank" class="col-sm-2 footer-social fa fa-instagram"></a>
 			</span>
                     </div>
                     <div class="col-sm-1"></div>
                 </div>
             </div>
             <div class="col-xs-12" style="background-color:grey; text-align:center">
-                <div>©2017 Jadavpur University Entrepreneurship Cell</div>
+                <div>©2018 Jadavpur University Entrepreneurship Cell</div>
                 <div>Crafted by &#128009;</div>
             </div>
-            <style>
 
-            </style>
         </div>
         </div>
 
-        <style>
-
-        </style>
         <!-- Modal content for coordinator-->
         <div id="modal-form" class="row">
             <div class="modal fade" id="Coordinator-Modal" role="dialog" class="col-xs-12">
