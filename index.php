@@ -204,7 +204,7 @@ if (isset($_POST['contact-form-submit'])) {
                
     </head>
 
-    <body>
+    <body id="body-of-the-page">
         <button class="md-trigger" data-modal="modal-12" id="thank-you-modal-button" style="display:none"></button>
         <div class="md-modal md-effect-4" id="modal-12">
             <div class="md-content">
@@ -224,7 +224,7 @@ echo $_SESSION['message'];
                     <div class="nav-container">
                         <div class="brand" style="width : 25%">
                             <p style="padding-top: 0px;margin-top: 0;">
-                                <a href="#"><img src="https://i.imgur.com/NSBCfAX.png" style="height: 80%;margin-top: 4px;"></a>
+                                <a href="#body-of-the-page"><img src="https://i.imgur.com/NSBCfAX.png" style="height: 80%;margin-top: 4px;"></a>
                             </p>
                         </div>
 
@@ -955,7 +955,7 @@ echo $_SESSION['message'];
                         <br>
                         <br>
                         <span class="footer-links">
-            <a href="#">Home</a><br><br>
+            <a href="#body-of-the-page">Home</a><br><br>
             <a href="#about">About</a><br><br>
             <a href="#home-gallery">Gallery</a><br><br>
             <a href="#testinomial">Testinomial</a><br><br>
@@ -1123,13 +1123,16 @@ echo $_SESSION['message'];
       <!-- the overlay element -->
       <!-- classie.js by @desandro: https://github.com/desandro/classie -->
       <script src="assets/js/classie.js"></script>
+      <script src="assets/js/smoothScroll.js"></script>
       <script src="assets/js/modalEffects.js"></script>
       <!-- for the blur effect -->
       <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
       <script>
          // this is important for IEs
          var polyfilter_scriptpath = '/js/';
-</script>
+    </script>
+
+
       <?php 
          if(strlen($_SESSION['message'])!=0){
          	echo "<script>
