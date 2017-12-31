@@ -235,17 +235,7 @@ echo $_SESSION['message'];
                         <div class="item carousel-image-bg" id="topthree" style="background-image:url('assets/img/carousel/2.svg');background-color:black">
 
                             <!-- /header-text -->
-                        </div>
-                        
-                        
-                        
-                        
-                                            <!-- 3rd -->
-                        <div class="item carousel-image-bg" id="toptw" style="background-image:url('assets/img/carousel/3.png');">
-
-                            </div>
-                            <!-- /header-text -->
-                                                    <div class="header-text"  >
+							                  <div class="header-text"  >
                                 <div class="col-md-12 text-left  " style=" color:white; width: 100% ; text-align: left">
                                     <h2  style=" ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</h2>
                                         <h3>Entrepreneurship Cell</h3>
@@ -254,7 +244,29 @@ echo $_SESSION['message'];
                                     
                                 </div>
                         </div>
+							2C87BB
+                        </div>
                         
+                        
+                        
+                        
+                                            <!-- 3rd -->
+                        <div class="item carousel-image-bg" id="toptw" style="background-image:url('assets/img/carousel/3.png'); background-color:#2458AD;">
+
+						
+                            
+                            <!-- /header-text -->
+							                  <div class="header-text"  >
+                                <div class="col-md-12 text-left  " style=" color:white; width: 100% ; text-align: left">
+                                    <h2  style=" ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</h2>
+                                        <h3>Entrepreneurship Cell</h3>
+                                        <h4>Dedicated to inspiring young minds and imparting experience.</h4>
+                                        <br>
+                                    
+                                </div>
+                        </div>
+                                   
+							</div>
                         
                         
                         
