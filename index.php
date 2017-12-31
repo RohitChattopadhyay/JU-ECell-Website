@@ -95,7 +95,7 @@ if (isset($_POST['contact-form-submit'])) {
 			 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="assets/js/jssor_home.js"></script>
-            <script src="../assets/js/smoothScroll.js"></script>
+            <script src="assets/js/smoothScroll.js"></script>
             <script>
                 $(function() {
                     $.scrollSpeed(100, 800);
