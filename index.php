@@ -318,7 +318,7 @@ echo $_SESSION['message'];
 
                         
                                             <!-- 2nd -->
-                        <div class="item carousel-image-bg" id="topthree" style="background-image:url('assets/img/carousel/2.svg');background-color:#5E5A5B">
+                        <div class="item carousel-image-bg" id="topthree" style="background-image:url('assets/img/carousel/2.jpg');background-color:#5E5A5B">
 
                             <!-- /header-text -->
                         </div>
