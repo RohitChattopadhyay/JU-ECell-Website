@@ -95,7 +95,16 @@ if (isset($_POST['contact-form-submit'])) {
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
             <script src="assets/js/modernizr.custom.js"></script>
             <script src="assets/js/jssor_home.js"></script>
+<<<<<<< HEAD
 
+=======
+            <script src="assets/js/smoothScroll.js"></script>
+            <script>
+                $(function() {
+                    $.scrollSpeed(100, 800);
+                });
+            </script>
+>>>>>>> parent of 2f32ccf... fix
 
             <style>
                 .container-fluid {
