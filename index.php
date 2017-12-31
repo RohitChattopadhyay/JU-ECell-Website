@@ -239,7 +239,7 @@ echo $_SESSION['message'];
                                     <a href="#pasts">Initiatives</a>
                                     <ul class="nav-dropdown" style="display: none;">
                                         <li>
-                                            <a href="#past-events-hult-prize">Hult Prize</a>
+                                            <a href="./hult">Hult Prize</a>
                                         </li>
                                         <li>
                                             <a href="#past-events-sis">Summer in a Startup</a>
@@ -517,7 +517,7 @@ echo $_SESSION['message'];
                         </div>
                     </li>
                     <li class="hex">
-                        <div class="hexIn">
+                        <div class="hexIn" id="past-events-s-week">
                             <a class="hexLink">
                                 <span class="box-vertical-border"></span>
                                 <img src="https://i.imgur.com/Rcs85FJ.png" alt="" />
@@ -972,8 +972,8 @@ echo $_SESSION['message'];
                         <span class="footer-links">
             <a href="./hult" target="_blank">Hult Prize</a><br><br>
             <a href="#past-events-e-week">E-Weekend</a><br><br>
-            <a href="#past-events-">Startup Weekend</a><br><br>
-            <a href="#past-events-sis">Summer in a startup</a><br><br>
+            <a href="#past-events-s-week">Startup Weekend</a><br><br>
+            <a href="#past-events-sis">Summer in a Startup</a><br><br>
             </span>
                     </div>
                     <div class="col-sm-3">
