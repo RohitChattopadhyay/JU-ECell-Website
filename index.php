@@ -877,7 +877,7 @@ echo $_SESSION['message'];
                                         <div class="row">
                                             <div class="col-sm-10 col-sm-offset-1">
                                                 <p style="padding-left:30px ; font-family: 'Alegreya Sans', sans-serif; font-size:21px">To any entrepreneur: if you want to do it, do it now. If you don’t, you’re going to regret it. Do Or do not. There is no try.It’s not about ideas. It’s about making ideas happen.I congratulate to all those students who made rigorous efforts to make this idea of an Entrepreneurship Cell in Jadavpur University come to life.</p>
-                                                <small><b>Prof. Surjayan Sen</b><br>VC, Jadavpur University</small>
+                                                <small><b>Prof. Suranjan Das</b><br>VC, Jadavpur University</small>
                                             </div>
                                         </div>
                                     </blockquote>
