@@ -463,7 +463,7 @@ echo $_SESSION['message'];
 
                     <div class="card-body">
                         <h2 style="text-align: center;color: black;font-family:" DINWebPro ", Helvetica, Arial, sans-serif;font-weight: 500">Falling Walls</h2>
-                        <p style="color: #666 ; font-family: 'Raleway', sans-serif; ">On 1989 witnessed the fall of the Berlin wall. This paved the path for the establishment of The Falling Walls Lab in Berlin in 2009 , which by far is considered to be one of the best talk shows on new scientific discoveries where scientists , economists, Nobel laureates and professors and inventors orate about their discoveries and make the world aware of the amazing inventions having the potential to change the world.</p>
+                        <p style="color: #666 ; font-family: 'Raleway', sans-serif; ">1989 witnessed the fall of the Berlin wall. This paved the path for the establishment of The Falling Walls Lab in Berlin in 2009 , which by far is considered to be one of the best talk shows on new scientific discoveries where scientists , economists, Nobel laureates and professors and inventors orate about their discoveries and make the world aware of the amazing inventions having the potential to change the world.</p>
 
                         <p><strong style="color: black ; font-size : 16px">Where </strong>: Jadavpur University Gandhi Bhavan </p>
                         <p><strong style="color: black ; font-size : 16px">When :</strong> April , 2018 </p>
