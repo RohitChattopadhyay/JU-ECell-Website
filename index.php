@@ -205,6 +205,67 @@ if (isset($_POST['contact-form-submit'])) {
     </head>
 
     <body id="body-of-the-page">
+	    <div class="preloader" style="position: fixed;
+ 
+  height: 100%;
+  top: 0;
+  right:0;
+  bottom:0;
+  left: 0;
+  z-index: 9999;
+  
+  background: #252020
+  ;">
+			<div class="container-fluid">
+				<div class="row" style="margin-left: 15%;">
+
+					
+
+					<div class="col-md-12">
+						<div class="preloader-image hidden-xs" style="position: absolute; padding-right:33%;
+							
+								
+
+								">
+							<img src="https://i.imgur.com/hQZ4cyx.gif" alt="loader-missing">
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+
+
+
+			</div>
+
+			<div class="small_preloader hidden-lg hidden-xl">
+				<div class="container-fluid">
+
+
+
+					<div class="row">
+						<div class="preloader-image hidden-lg-up" style="position: absolute;
+  left: 45%;
+  top: 25%;
+  margin-left:-358px;margin-top:-170px;height:50%;">
+							<img src="https://i.imgur.com/hQZ4cyx.gif" alt="loader-missing">
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+		<script type="text/javascript">
+			setTimeout(function () {
+				$('.preloader').fadeOut();
+			}, 2000);
+			console.log("in preloader");
+		</script>
         <button class="md-trigger" data-modal="modal-12" id="thank-you-modal-button" style="display:none"></button>
         <div class="md-modal md-effect-4" id="modal-12">
             <div class="md-content">
