@@ -150,6 +150,57 @@ if (isset($_POST['contact-form-submit'])) {
                     height: 100%
                 }
             </style>
+        <style>
+        /*! Outline Font */
+
+/*
+@font-face {
+    font-family: 'fenwick';
+    src: url('./assets/fonts/outline-font/fenwick_outline.eot');
+    src: url('./assets/fonts/outline-font/fenwick_outline.eot?#iefix') format('embedded-opentype'),
+         url('./assets/fonts/outline-font/fenwick_outline.woff2') format('woff2'),
+         url('./assets/fonts/outline-font/fenwick_outline.woff') format('woff'),
+         url('./assets/fonts/outline-font/fenwick_outline.ttf') format('truetype'),
+         url('./assets/fonts/outline-font/fenwick_outline.svg#fenwickoutline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+            
+*/
+            .font-outline {
+                text-shadow: -1px -1px 0 #000,      1px -1px 0 #000,      -1px 1px 0 #000,      1px 1px 0 #000,        -2px 0 0 #000,      2px 0 0 #000,      0 2px 0 #000,      0 -2px 0 #000;
+            }
+        </style>
+        <style>
+            .heading-1 {
+                font-size: 5vw;
+            }
+        
+            .heading-2 {
+                font-size: 4vw;
+            }
+            
+            .heading-3 {
+                font-size: 3vw;
+            }
+            
+            @media only screen and (max-width: 780px) {
+                .heading-1 {
+                    font-size: 12vw;
+                }
+
+                .heading-2 {
+                    font-size: 9vw;
+                }
+
+                .heading-3 {
+                    font-size: 5vw;
+                }
+            }
+        
+        </style>
+               
     </head>
 
     <body>
@@ -241,15 +292,15 @@ echo $_SESSION['message'];
                         
                         
                                             <!-- 3rd -->
-                        <div class="item carousel-image-bg" id="toptw" style="background-image:url('assets/img/carousel/3.png');">
+                        <div class="item carousel-image-bg" id="toptw" style="background-image:url('assets/img/carousel/3.png'); background-color:#f3f337">
 
                             </div>
                             <!-- /header-text -->
                                                     <div class="header-text"  >
-                                <div class="col-md-12 text-left  " style=" color:white; width: 100% ; text-align: left">
-                                    <h2  style=" ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</h2>
-                                        <h3>Entrepreneurship Cell</h3>
-                                        <h4>Dedicated to inspiring young minds and imparting experience.</h4>
+                                <div class="col-md-12 text-left font-outline" style=" color:white; width: 100% ; text-align: left">
+                                    <div class="heading-1"  style=" ; font-weight: bold;font-family: 'Archivo Black', sans-  serif">JADAVPUR UNIVERSITY</div>
+                                        <div class="heading-2">Entrepreneurship Cell</div>
+                                        <div class="heading-3">Dedicated to inspiring young minds and imparting experience.</div>
                                         <br>
                                     
                                 </div>
@@ -260,7 +311,7 @@ echo $_SESSION['message'];
                         
                         
                                     <!-- 1st -->
-                        <div class="item active carousel-image-bg" id="topone" style="background-image:url('assets/img/carousel/1.svg');">
+                        <div class="item active carousel-image-bg" id="topone" style="background-image:url('assets/img/carousel/1.png');">
 <!--                            <div class="header-text " style="color:white">
                                 <div class="col-md-12 text-left" style="color:white ; width: 100% ; text-align: left">
                                     <h2 style="font-size: 56px ; font-weight: bold;font-family: 'Archivo Black', sans-serif
