@@ -43,8 +43,7 @@ if (isset($_POST['ambassador-form-submit'])) {
     $ambassador_college  = addslashes($_POST['ambassador-form-college']);
     $ambassador_phone    = addslashes($_POST['ambassador-form-phone']);
     $ambassador_reason  = addslashes($_POST['ambassador-form-reason']);
-    $_SESSION['message'] = "You just signed up to be well-informed about the great things we do at the Jadavpur University E-Cell!<br>
-Ideate. Innovate. Build!";
+    $_SESSION['message'] = "Thanks for filling up the form and expressing your interest in the Jadavpur University E-Cell. Our team will get back to you shortly!";
     
     $Asql = "INSERT INTO ambassador (name, email, phone, college, reason) VALUES ('$ambassador_name','$ambassador_email','$ambassador_phone','$ambassador_college','$ambassador_reason')";
     if (mysqli_query($connection, $Asql)) {
