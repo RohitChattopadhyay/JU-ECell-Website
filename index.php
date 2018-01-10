@@ -466,7 +466,7 @@ echo $_SESSION['message'];
 
                         <p><strong style="color: black ; font-size : 16px">Where </strong>: Jadavpur University Gandhi Bhavan </p>
                         <p><strong style="color: black ; font-size : 16px">When :</strong> April , 2018 </p>
-<!--                        <p style="text-align: center"><a href="#" class="btn btn-lg btn-primary detail-button">Details</a></p>-->
+				<p style="text-align: center"><a href="http://falling-walls.com/lab/applyold?location=3" class="btn btn-lg btn-primary detail-button">Register</a></p>
                     </div>
                 </div>
 
