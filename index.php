@@ -234,7 +234,7 @@ if (isset($_POST['contact-form-submit'])) {
         <div id="preloader">
 	<div id="status">&nbsp;</div>
 </div>
-        <button class="md-trigger" data-modal="form-modal id="thank-you-modal-button" style="display:none"></button>
+        <button class="md-trigger" data-modal="form-modal" id="thank-you-modal-button" style="display:none"></button>
         <div class="md-modal md-effect-4" id="form-modal">
             <div class="md-content">
                 <h3>Thank You<a class="md-close" style="float:right ; text-decoration:none;color:white;cursor:pointer;">x</a></h3>
@@ -249,7 +249,7 @@ echo $_SESSION['message'];
         </div>
 	<!-- Normal Web Pop Up Modal
 	 trigger using document.getElementById('web-modal-button').click(); -->
-	<button class="md-trigger" data-modal="web-modal id="web-modal-button" style="display:none"></button>
+	<button class="md-trigger" data-modal="web-modal" id="web-modal-button" style="display:none"></button>
 	<div class="md-modal md-effect-4" id="web-modal">
             <div class="md-content">
                 <h3>Thank You<a class="md-close" style="float:right ; text-decoration:none;color:white;cursor:pointer;">x</a></h3>
