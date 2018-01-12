@@ -247,8 +247,8 @@ echo $_SESSION['message'];
                 </div>
             </div>
         </div>
-	/*Normal Web Pop Up Modal*/
-	/* trigger using document.getElementById('web-modal-button').click();*/
+	<!-- Normal Web Pop Up Modal
+	 trigger using document.getElementById('web-modal-button').click(); -->
 	<button class="md-trigger" data-modal="web-modal id="web-modal-button" style="display:none"></button>
 	<div class="md-modal md-effect-4" id="web-modal">
             <div class="md-content">
@@ -260,6 +260,11 @@ Type the message
                 </div>
             </div>
         </div>
+	    <script>
+		    function button4webPop() {
+			    document.getElementById('web-modal-button').click();
+		    }
+	    </script>
         <div class="container-fluid">
             <div>
                 <section class="navigation" style="width:100%;position:fixed ; z-index : 100">
