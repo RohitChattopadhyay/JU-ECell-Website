@@ -1745,7 +1745,7 @@ height: 100%;
   .headd ul li a:not(:only-child):after,
   .headd ul li a:visited:not(:only-child):after {
     padding-left: 4px;
-    content: ' ▾';
+    content: ' \25BE';
   }
   .headd ul li ul li {
     min-width: 190px;
